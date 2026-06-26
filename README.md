@@ -11,6 +11,10 @@
   <img src="https://img.shields.io/badge/TensorFlow-AI%20Models-orange?style=for-the-badge&logo=tensorflow" alt="TensorFlow">
 </p>
 
+<p align="center">
+  🚀 <strong>Live Web App:</strong> <a href="https://krishimitra-shivam.surge.sh">krishimitra-shivam.surge.sh</a>
+</p>
+
 ---
 
 ## 📖 About The Project
