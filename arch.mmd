@@ -1,0 +1,21 @@
+
+graph TD
+    subgraph Mobile Client
+        UI[Flutter App]
+    end
+    subgraph Backend Server
+        API[Flask REST API]
+        DB[(SQLite Database)]
+        API --> DB
+    end
+    subgraph Intelligence Layer
+        RN[ResNet50 Model]
+        KNN[KNN Soil Engine]
+        LSTM[LSTM Forecaster]
+        LLM[Groq LLaMA 3.3]
+    end
+    UI <-->|JSON / HTTPS| API
+    API <-->|Inference| RN
+    API <-->|Analysis| KNN
+    API <-->|Prediction| LSTM
+    API <-->|API Calls| LLM

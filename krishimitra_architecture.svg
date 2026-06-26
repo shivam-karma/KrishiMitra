@@ -1,0 +1,114 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 560" width="680" height="560" font-family="Arial, Helvetica, sans-serif">
+
+  <!-- Background -->
+  <rect width="680" height="560" fill="#ffffff"/>
+
+  <!-- ══════════════════════════════════════════════════════ -->
+  <!-- TIER 1: Mobile Frontend -->
+  <!-- ══════════════════════════════════════════════════════ -->
+  <rect x="90" y="30" width="500" height="82" rx="10" ry="10"
+        fill="#EBF3FB" stroke="#2E75B6" stroke-width="2"/>
+  <text x="340" y="62" text-anchor="middle" font-size="13" font-weight="bold" fill="#1A3F6F">
+    Tier 1: Mobile Frontend
+  </text>
+  <text x="340" y="84" text-anchor="middle" font-size="11" fill="#2E75B6">
+    Flutter / Dart 3.x  ·  Material 3 UI  ·  go_router  ·  flutter_riverpod  ·  Dio HTTP
+  </text>
+  <text x="340" y="103" text-anchor="middle" font-size="10" fill="#555555">
+    Android · iOS · Web  —  Camera · Gallery · Charts · Maps · OTP Flow
+  </text>
+
+  <!-- Arrow 1: Tier 1 → communication label → Tier 2 -->
+  <line x1="340" y1="112" x2="340" y2="148" stroke="#444444" stroke-width="1.8" marker-end="url(#arrowBlack)"/>
+  <rect x="238" y="119" width="204" height="22" rx="4" fill="#FFFFFF" stroke="#AAAAAA" stroke-width="1"/>
+  <text x="340" y="134" text-anchor="middle" font-size="10" fill="#333333" font-style="italic">
+    HTTPS / JSON REST API  (Dio 5.9.2)
+  </text>
+
+  <!-- ══════════════════════════════════════════════════════ -->
+  <!-- TIER 2: Backend Orchestrator -->
+  <!-- ══════════════════════════════════════════════════════ -->
+  <rect x="90" y="148" width="500" height="82" rx="10" ry="10"
+        fill="#EEF7EE" stroke="#2E7D32" stroke-width="2"/>
+  <text x="340" y="180" text-anchor="middle" font-size="13" font-weight="bold" fill="#1B4F1D">
+    Tier 2: Backend Orchestrator
+  </text>
+  <text x="340" y="202" text-anchor="middle" font-size="11" fill="#2E7D32">
+    Flask 2.3 / Python 3.11  ·  Flask-SQLAlchemy  ·  Flask-CORS  ·  Groq SDK
+  </text>
+  <text x="340" y="221" text-anchor="middle" font-size="10" fill="#555555">
+    14 REST Endpoints  ·  Authentication · Disease · Market · Chat · P2P  ·  0:0.0.0:5000
+  </text>
+
+  <!-- Arrow 2: Tier 2 → Tier 3 (AI) -->
+  <line x1="340" y1="230" x2="340" y2="270" stroke="#444444" stroke-width="1.8" marker-end="url(#arrowBlack)"/>
+
+  <!-- ══════════════════════════════════════════════════════ -->
+  <!-- TIER 3: AI Intelligence Layer -->
+  <!-- ══════════════════════════════════════════════════════ -->
+  <rect x="90" y="270" width="500" height="82" rx="10" ry="10"
+        fill="#FDF3E7" stroke="#E65100" stroke-width="2"/>
+  <text x="340" y="302" text-anchor="middle" font-size="13" font-weight="bold" fill="#7F2700">
+    Tier 3: AI Intelligence Layer
+  </text>
+  <text x="340" y="324" text-anchor="middle" font-size="11" fill="#E65100">
+    ResNet50 (96.4% Acc.)  ·  Grad-CAM  ·  Groq LLaMA 3.3 70B  ·  LSTM Forecasting
+  </text>
+  <text x="340" y="343" text-anchor="middle" font-size="10" fill="#555555">
+    TensorFlow SavedModel  ·  OpenCV  ·  ImageNet Pretraining  ·  XAI Heatmaps
+  </text>
+
+  <!-- Arrow 3: Tier 2 → Database (side) -->
+  <line x1="590" y1="189" x2="618" y2="189" stroke="#777777" stroke-width="1.5" marker-end="url(#arrowGray)"/>
+  <line x1="618" y1="189" x2="618" y2="420" stroke="#777777" stroke-width="1.5"/>
+  <line x1="618" y1="420" x2="590" y2="420" stroke="#777777" stroke-width="1.5" marker-end="url(#arrowGray)"/>
+
+  <!-- Database box -->
+  <rect x="90" y="388" width="500" height="64" rx="10" ry="10"
+        fill="#F5F5F5" stroke="#9E9E9E" stroke-width="1.5" stroke-dasharray="6,3"/>
+  <text x="340" y="416" text-anchor="middle" font-size="12" font-weight="bold" fill="#424242">
+    Persistent Data Store
+  </text>
+  <text x="340" y="438" text-anchor="middle" font-size="10" fill="#666666">
+    SQLite  ·  SQLAlchemy ORM  ·  Users · Listings · Transactions · Messages · Calendar
+  </text>
+
+  <!-- Arrow Tier2 → Tier3 for External APIs -->
+  <!-- External API boxes: 3 boxes at the bottom -->
+  <line x1="340" y1="352" x2="340" y2="490" stroke="#999999" stroke-width="1.4" stroke-dasharray="5,3" marker-end="url(#arrowGray)"/>
+
+  <!-- External API row -->
+  <rect x="30"  y="490" width="140" height="48" rx="8" fill="#F3EFFD" stroke="#7B1FA2" stroke-width="1.5"/>
+  <text x="100" y="511" text-anchor="middle" font-size="10" font-weight="bold" fill="#4A148C">Groq LLM API</text>
+  <text x="100" y="528" text-anchor="middle" font-size="9"  fill="#7B1FA2">LLaMA 3.3 70B</text>
+
+  <rect x="190" y="490" width="140" height="48" rx="8" fill="#E8F5E9" stroke="#388E3C" stroke-width="1.5"/>
+  <text x="260" y="511" text-anchor="middle" font-size="10" font-weight="bold" fill="#1B5E20">OpenWeatherMap</text>
+  <text x="260" y="528" text-anchor="middle" font-size="9"  fill="#388E3C">REST v2.5</text>
+
+  <rect x="350" y="490" width="140" height="48" rx="8" fill="#FFF8E1" stroke="#F9A825" stroke-width="1.5"/>
+  <text x="420" y="511" text-anchor="middle" font-size="10" font-weight="bold" fill="#E65100">Agmarknet API</text>
+  <text x="420" y="528" text-anchor="middle" font-size="9"  fill="#F9A825">data.gov.in</text>
+
+  <rect x="510" y="490" width="140" height="48" rx="8" fill="#FCE4EC" stroke="#C62828" stroke-width="1.5"/>
+  <text x="580" y="511" text-anchor="middle" font-size="10" font-weight="bold" fill="#880E4F">Fast2SMS</text>
+  <text x="580" y="528" text-anchor="middle" font-size="9"  fill="#C62828">OTP Gateway</text>
+
+  <!-- Title -->
+  <text x="340" y="558" text-anchor="middle" font-size="10" fill="#888888">
+    Fig. 1. KrishiMitra Three-Tier System Architecture — IEEE Publication Style
+  </text>
+
+  <!-- ══════════════════════════════════════════════════════ -->
+  <!-- ARROW MARKERS -->
+  <!-- ══════════════════════════════════════════════════════ -->
+  <defs>
+    <marker id="arrowBlack" markerWidth="8" markerHeight="8" refX="6" refY="3" orient="auto">
+      <path d="M0,0 L0,6 L8,3 z" fill="#444444"/>
+    </marker>
+    <marker id="arrowGray" markerWidth="7" markerHeight="7" refX="5" refY="3" orient="auto">
+      <path d="M0,0 L0,6 L7,3 z" fill="#777777"/>
+    </marker>
+  </defs>
+
+</svg>

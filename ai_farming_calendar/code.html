@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+
+<html class="light" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Krishi Heritage | AI Farming Calendar</title>
+<!-- Fonts -->
+<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;600;700;800&amp;family=Inter:wght@400;500;600;700&amp;display=swap" rel="stylesheet"/>
+<!-- Material Symbols -->
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<!-- Tailwind CSS -->
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<script id="tailwind-config">
+      tailwind.config = {
+        darkMode: "class",
+        theme: {
+          extend: {
+            colors: {
+              "secondary-fixed-dim": "#91db2a",
+              "primary-fixed-dim": "#95d3ba",
+              "error-container": "#ffdad6",
+              "on-tertiary-fixed-variant": "#6e3900",
+              "on-background": "#1a1c1c",
+              "on-secondary-fixed-variant": "#304f00",
+              "background": "#f9f9f8",
+              "surface-container-lowest": "#ffffff",
+              "surface-bright": "#f9f9f8",
+              "primary-fixed": "#b0f0d6",
+              "on-primary-container": "#80bea6",
+              "outline-variant": "#bfc9c3",
+              "secondary": "#416900",
+              "on-primary": "#ffffff",
+              "secondary-container": "#acf847",
+              "inverse-surface": "#2f3130",
+              "surface-container-high": "#e8e8e7",
+              "on-tertiary-fixed": "#2f1500",
+              "on-surface-variant": "#404944",
+              "on-error-container": "#93000a",
+              "tertiary-container": "#6a3700",
+              "on-surface": "#1a1c1c",
+              "surface-container-highest": "#e2e2e2",
+              "tertiary": "#4a2400",
+              "primary-container": "#064e3b",
+              "surface-variant": "#e2e2e2",
+              "on-tertiary": "#ffffff",
+              "on-secondary": "#ffffff",
+              "on-primary-fixed-variant": "#0b513d",
+              "secondary-fixed": "#acf847",
+              "inverse-on-surface": "#f1f1f0",
+              "error": "#ba1a1a",
+              "on-tertiary-container": "#ff9939",
+              "on-secondary-container": "#457000",
+              "surface-dim": "#dadad9",
+              "tertiary-fixed-dim": "#ffb77d",
+              "surface-tint": "#2b6954",
+              "on-secondary-fixed": "#102000",
+              "outline": "#707974",
+              "surface": "#f9f9f8",
+              "primary": "#003527",
+              "surface-container-low": "#f4f4f3",
+              "surface-container": "#eeeeed",
+              "tertiary-fixed": "#ffdcc3",
+              "on-error": "#ffffff",
+              "inverse-primary": "#95d3ba",
+              "on-primary-fixed": "#002117"
+            },
+            fontFamily: {
+              "headline": ["Manrope"],
+              "body": ["Inter"],
+              "label": ["Inter"]
+            },
+            borderRadius: {"DEFAULT": "0.25rem", "lg": "0.5rem", "xl": "0.75rem", "full": "9999px"},
+          },
+        },
+      }
+    </script>
+<style>
+      .material-symbols-outlined {
+        font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+      }
+      .no-scrollbar::-webkit-scrollbar { display: none; }
+      .no-scrollbar { -ms-overflow-style: none; scrollbar-width: none; }
+    </style>
+<style>
+    body {
+      min-height: max(884px, 100dvh);
+    }
+  </style>
+  </head>
+<body class="bg-surface font-body text-on-background selection:bg-secondary-container">
+<!-- TopAppBar -->
+<header class="bg-[#f9f9f8] dark:bg-stone-950 flex justify-between items-center w-full px-6 h-16 sticky top-0 z-40">
+<div class="flex items-center gap-4">
+<button class="text-[#003527] dark:text-emerald-500 hover:opacity-80 transition-opacity Active: scale-95 duration-150">
+<span class="material-symbols-outlined">menu</span>
+</button>
+<h1 class="font-['Manrope'] font-bold tracking-tight text-xl font-black text-[#003527] dark:text-emerald-500">Krishi Heritage</h1>
+</div>
+<div class="flex items-center">
+<div class="w-10 h-10 rounded-full overflow-hidden border-2 border-primary-container/10">
+<img alt="User Profile" class="w-full h-full object-cover" data-alt="Close-up portrait of a friendly middle-aged male farmer smiling warmly, natural sunlight, soft blurred rural background" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCgov4LQ773vpDtyG5A-hgypVC0s_LLhm1X2WtYv-qJGbdunqp5NO3x37ent-Vgp2Ss_edICVKTH95KmD1G_cYNUkJDkyHgTj350wB-1VnoDq0fOH_9qksTLhxTQp8hNDC_pyIZphSbqT9W5uca1g5I-5mxiqFlQFD21lG59Oy7_peHRVcnUElV4F4YbS1MC5xOfDxvwiGhCyhZ9WgwMZ9EkEzn47IH7uk2lyY5PKGc3j_htIVWrb-5eYfgAbbBaviVPVv6JBhSoMc"/>
+</div>
+</div>
+</header>
+<main class="max-w-5xl mx-auto px-6 pt-6 pb-32 space-y-10">
+<!-- Hero: Progress & AI Status -->
+<section class="relative overflow-hidden rounded-xl bg-gradient-to-br from-primary to-primary-container p-8 text-white shadow-lg">
+<div class="relative z-10 grid md:grid-cols-2 gap-8 items-center">
+<div class="space-y-4">
+<div class="flex items-center gap-2">
+<span class="inline-block w-2 h-2 rounded-full bg-secondary-fixed animate-pulse"></span>
+<span class="text-secondary-fixed font-bold tracking-wider text-xs uppercase font-label">Active Growth Cycle</span>
+</div>
+<h2 class="font-headline text-3xl font-extrabold tracking-tight">Seedling Stage: Day 12 of 90</h2>
+<p class="text-primary-fixed-dim text-sm max-w-xs leading-relaxed">Your Tomato crop is currently developing primary leaves. Maintain consistent soil moisture levels.</p>
+</div>
+<div class="space-y-2">
+<div class="flex justify-between text-sm font-semibold mb-1">
+<span>Harvest Progress</span>
+<span>14%</span>
+</div>
+<div class="h-3 w-full bg-white/10 rounded-full overflow-hidden">
+<div class="h-full bg-secondary-fixed rounded-full" style="width: 14%"></div>
+</div>
+</div>
+</div>
+<!-- Decorative Grain Texture -->
+<div class="absolute inset-0 opacity-10 pointer-events-none mix-blend-overlay bg-[url('https://www.transparenttextures.com/patterns/carbon-fibre.png')]"></div>
+</section>
+<!-- Setup Your Plan (Editorial Layout) -->
+<section class="space-y-6">
+<div class="flex items-end justify-between">
+<div>
+<h3 class="font-headline text-2xl font-bold text-primary">Setup Your Plan</h3>
+<p class="text-on-surface-variant text-sm mt-1">Configure your AI-powered cultivation roadmap.</p>
+</div>
+</div>
+<div class="bg-surface-container-low rounded-xl p-8 grid grid-cols-1 md:grid-cols-3 gap-6">
+<div class="space-y-2">
+<label class="block text-xs font-bold text-on-surface-variant uppercase tracking-widest px-1">Selected Crop</label>
+<div class="bg-surface-container-lowest rounded-xl p-4 flex items-center gap-4 shadow-sm group hover:shadow-md transition-shadow cursor-pointer">
+<div class="w-12 h-12 rounded-lg bg-secondary-container/20 flex items-center justify-center text-secondary">
+<span class="material-symbols-outlined text-3xl">psychiatry</span>
+</div>
+<div>
+<p class="font-bold text-primary">Tomato</p>
+<p class="text-xs text-on-surface-variant">Solanum lycopersicum</p>
+</div>
+</div>
+</div>
+<div class="space-y-2">
+<label class="block text-xs font-bold text-on-surface-variant uppercase tracking-widest px-1">Planting Date</label>
+<div class="bg-surface-container-lowest rounded-xl p-4 flex items-center gap-4 shadow-sm hover:shadow-md transition-shadow cursor-pointer">
+<div class="w-12 h-12 rounded-lg bg-primary-container/10 flex items-center justify-center text-primary-container">
+<span class="material-symbols-outlined text-3xl">calendar_today</span>
+</div>
+<div>
+<p class="font-bold text-primary">Oct 12, 2023</p>
+<p class="text-xs text-on-surface-variant">12 Days Ago</p>
+</div>
+</div>
+</div>
+<div class="space-y-2">
+<label class="block text-xs font-bold text-on-surface-variant uppercase tracking-widest px-1">Soil Profile</label>
+<div class="bg-surface-container-lowest rounded-xl p-4 flex items-center gap-4 shadow-sm hover:shadow-md transition-shadow cursor-pointer">
+<div class="w-12 h-12 rounded-lg bg-tertiary-fixed-dim/20 flex items-center justify-center text-tertiary">
+<span class="material-symbols-outlined text-3xl">texture</span>
+</div>
+<div>
+<p class="font-bold text-primary">Loamy Soil</p>
+<p class="text-xs text-on-surface-variant">High Nutrient Density</p>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Week Navigation & Timeline Wrapper -->
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-10">
+<!-- Left Column: Date & Timeline -->
+<div class="lg:col-span-8 space-y-8">
+<!-- Horizontal Date Picker -->
+<div class="flex items-center justify-between">
+<h3 class="font-headline text-xl font-bold text-primary">Schedule</h3>
+<div class="flex gap-2">
+<button class="p-2 rounded-full hover:bg-surface-container-high text-on-surface-variant transition-colors">
+<span class="material-symbols-outlined">chevron_left</span>
+</button>
+<button class="p-2 rounded-full hover:bg-surface-container-high text-on-surface-variant transition-colors">
+<span class="material-symbols-outlined">chevron_right</span>
+</button>
+</div>
+</div>
+<div class="flex gap-4 overflow-x-auto no-scrollbar pb-2">
+<div class="flex-shrink-0 w-20 py-4 rounded-2xl bg-surface-container-low flex flex-col items-center justify-center gap-1 cursor-pointer hover:bg-surface-container-high transition-colors">
+<span class="text-[10px] font-bold text-on-surface-variant uppercase">Mon</span>
+<span class="text-xl font-bold text-primary">23</span>
+</div>
+<div class="flex-shrink-0 w-20 py-4 rounded-2xl bg-primary text-white flex flex-col items-center justify-center gap-1 shadow-lg shadow-primary/20 scale-105">
+<span class="text-[10px] font-bold text-primary-fixed-dim uppercase">Tue</span>
+<span class="text-xl font-bold">24</span>
+<div class="w-1.5 h-1.5 rounded-full bg-secondary-fixed mt-1"></div>
+</div>
+<div class="flex-shrink-0 w-20 py-4 rounded-2xl bg-surface-container-low flex flex-col items-center justify-center gap-1 cursor-pointer hover:bg-surface-container-high transition-colors">
+<span class="text-[10px] font-bold text-on-surface-variant uppercase">Wed</span>
+<span class="text-xl font-bold text-primary">25</span>
+</div>
+<div class="flex-shrink-0 w-20 py-4 rounded-2xl bg-surface-container-low flex flex-col items-center justify-center gap-1 cursor-pointer hover:bg-surface-container-high transition-colors">
+<span class="text-[10px] font-bold text-on-surface-variant uppercase">Thu</span>
+<span class="text-xl font-bold text-primary">26</span>
+</div>
+<div class="flex-shrink-0 w-20 py-4 rounded-2xl bg-surface-container-low flex flex-col items-center justify-center gap-1 cursor-pointer hover:bg-surface-container-high transition-colors">
+<span class="text-[10px] font-bold text-on-surface-variant uppercase">Fri</span>
+<span class="text-xl font-bold text-primary">27</span>
+</div>
+</div>
+<!-- Vertical Timeline: Today's Tasks -->
+<div class="space-y-4">
+<h4 class="font-label text-xs font-black uppercase tracking-widest text-secondary flex items-center gap-2">
+<span class="material-symbols-outlined text-lg" style="font-variation-settings: 'FILL' 1;">assignment_turned_in</span>
+                        Today's Tasks
+                    </h4>
+<div class="space-y-4 relative before:absolute before:left-[1.2rem] before:top-4 before:bottom-4 before:w-0.5 before:bg-surface-container-high">
+<!-- Task 1 -->
+<div class="relative flex gap-6 items-start group">
+<div class="z-10 w-10 h-10 rounded-full bg-secondary-container flex items-center justify-center text-on-secondary-container shadow-sm group-hover:scale-110 transition-transform">
+<span class="material-symbols-outlined text-xl">water_drop</span>
+</div>
+<div class="flex-1 bg-surface-container-lowest p-6 rounded-xl shadow-[0px_12px_32px_rgba(0,33,23,0.03)] border-l-4 border-secondary-container">
+<div class="flex justify-between items-start">
+<div>
+<p class="text-xs font-bold text-on-surface-variant mb-1 uppercase tracking-tight">08:00 AM</p>
+<h5 class="text-lg font-bold text-primary">Check Soil Moisture</h5>
+<p class="text-on-surface-variant text-sm mt-2 leading-relaxed">Ensure the top 2 inches of soil feel moist. Seedlings require delicate but consistent hydration.</p>
+</div>
+<button class="w-8 h-8 rounded-full border border-outline-variant flex items-center justify-center text-outline hover:bg-secondary-container hover:border-transparent transition-all">
+<span class="material-symbols-outlined text-sm">done</span>
+</button>
+</div>
+</div>
+</div>
+<!-- Task 2 -->
+<div class="relative flex gap-6 items-start group">
+<div class="z-10 w-10 h-10 rounded-full bg-primary-container flex items-center justify-center text-white shadow-sm group-hover:scale-110 transition-transform">
+<span class="material-symbols-outlined text-xl">vital_signs</span>
+</div>
+<div class="flex-1 bg-surface-container-lowest p-6 rounded-xl shadow-[0px_12px_32px_rgba(0,33,23,0.03)]">
+<div class="flex justify-between items-start">
+<div>
+<p class="text-xs font-bold text-on-surface-variant mb-1 uppercase tracking-tight">11:30 AM</p>
+<h5 class="text-lg font-bold text-primary">Monitor Sunlight Exposure</h5>
+<p class="text-on-surface-variant text-sm mt-2 leading-relaxed">Ensure plants are receiving at least 6 hours of filtered sunlight. Adjust shade if intensity peaks.</p>
+</div>
+<button class="w-8 h-8 rounded-full border border-outline-variant flex items-center justify-center text-outline hover:bg-secondary-container hover:border-transparent transition-all">
+<span class="material-symbols-outlined text-sm">done</span>
+</button>
+</div>
+</div>
+</div>
+<!-- Task 3 -->
+<div class="relative flex gap-6 items-start group">
+<div class="z-10 w-10 h-10 rounded-full bg-tertiary-container flex items-center justify-center text-white shadow-sm group-hover:scale-110 transition-transform">
+<span class="material-symbols-outlined text-xl">science</span>
+</div>
+<div class="flex-1 bg-surface-container-lowest p-6 rounded-xl shadow-[0px_12px_32px_rgba(0,33,23,0.03)]">
+<div class="flex justify-between items-start">
+<div>
+<p class="text-xs font-bold text-on-surface-variant mb-1 uppercase tracking-tight">04:00 PM</p>
+<h5 class="text-lg font-bold text-primary">Apply Nitrogen Fertilizer</h5>
+<p class="text-on-surface-variant text-sm mt-2 leading-relaxed">Use a diluted organic solution to boost vegetative growth during this early seedling phase.</p>
+</div>
+<button class="w-8 h-8 rounded-full border border-outline-variant flex items-center justify-center text-outline hover:bg-secondary-container hover:border-transparent transition-all">
+<span class="material-symbols-outlined text-sm">done</span>
+</button>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<!-- Right Column: Context & Tips -->
+<div class="lg:col-span-4 space-y-8">
+<!-- Beginner's Tip Card -->
+<div class="bg-secondary-container/10 border-2 border-dashed border-secondary-container/30 rounded-2xl p-8 space-y-4">
+<div class="flex items-center gap-3 text-secondary">
+<span class="material-symbols-outlined text-3xl" style="font-variation-settings: 'FILL' 1;">lightbulb</span>
+<h4 class="font-headline font-bold text-lg">Beginner's Tip</h4>
+</div>
+<p class="text-on-surface-variant text-sm leading-relaxed font-medium">
+                        "At the seedling stage, roots are very shallow. Avoid pouring water directly on the stem; instead, water in a circle about 2 inches away from the base to encourage root expansion."
+                    </p>
+<div class="pt-4 flex items-center justify-between">
+<span class="text-[10px] font-black uppercase text-secondary/60">Agri-AI Insight</span>
+<button class="text-xs font-bold text-primary hover:underline underline-offset-4">Learn More</button>
+</div>
+</div>
+<!-- Environment Snapshot -->
+<div class="bg-surface-container-lowest rounded-2xl p-8 shadow-xl shadow-primary/5 space-y-6">
+<h4 class="font-headline font-bold text-primary">Field Conditions</h4>
+<div class="grid grid-cols-2 gap-4">
+<div class="p-4 rounded-xl bg-surface-container-low text-center">
+<span class="material-symbols-outlined text-secondary block mb-1">thermostat</span>
+<p class="text-xl font-bold text-primary">24°C</p>
+<p class="text-[10px] text-on-surface-variant uppercase font-bold">Temp</p>
+</div>
+<div class="p-4 rounded-xl bg-surface-container-low text-center">
+<span class="material-symbols-outlined text-secondary block mb-1">humidity_mid</span>
+<p class="text-xl font-bold text-primary">62%</p>
+<p class="text-[10px] text-on-surface-variant uppercase font-bold">Humidity</p>
+</div>
+</div>
+<div class="pt-4 border-t border-surface-container-high">
+<div class="flex items-center gap-2 mb-2">
+<span class="material-symbols-outlined text-sm text-on-tertiary-container">info</span>
+<span class="text-xs font-bold text-on-surface">AI Observation</span>
+</div>
+<p class="text-xs text-on-surface-variant leading-relaxed italic">
+                            "Conditions are optimal for photosynthesis today. No immediate intervention required beyond standard irrigation."
+                        </p>
+</div>
+</div>
+<!-- Weather Visual Card -->
+<div class="rounded-2xl overflow-hidden relative group">
+<img alt="Weather Visualization" class="w-full h-48 object-cover group-hover:scale-110 transition-transform duration-700" data-alt="Wide scenic shot of a rolling green field under a clear blue sky with fluffy white clouds, vibrant natural colors" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCDDQI00mcHSg6TuZBn43-rKdFFYPotJTauNzqyDFyKPiZjGULHPgKW1d0AXRyOzmgtFZDFs6C4PUaMBv-xgyPOkdCTuT0nyjyOgucfDwtEoILGr_tfHVq9M1dgOMdh4kiNcay1cM1iMr0Yfbk87pBXGPl5rcjPxvE7Myk-9yROc3DAl6ve5QdYja0RHtm7xYivY4U981TEWNwGtxOqK1Iie3F8zLTTGcw3g0LDujhusGLnmeRWf5N6CA6anomU48pnAP-rzNLk29Q"/>
+<div class="absolute inset-0 bg-gradient-to-t from-primary/80 to-transparent flex flex-col justify-end p-6">
+<p class="text-white text-sm font-bold">Cloudy Intervals</p>
+<p class="text-primary-fixed-dim text-xs">Precipitation: 10% expected at 06:00 PM</p>
+</div>
+</div>
+</div>
+</div>
+</main>
+<!-- BottomNavBar -->
+<nav class="fixed bottom-0 left-0 w-full z-50 flex justify-around items-center px-4 pb-6 pt-3 bg-white/80 dark:bg-stone-900/80 backdrop-blur-xl border-t border-stone-200/15 dark:border-stone-800/15 shadow-[0px_-12px_32px_rgba(0,33,23,0.06)] rounded-t-[1.5rem] md:hidden">
+<a class="flex flex-col items-center justify-center text-stone-500 dark:text-stone-400 px-5 py-1.5 hover:text-[#416900] dark:hover:text-[#acf847] Active: scale-90 duration-200 ease-out" href="#">
+<span class="material-symbols-outlined">home</span>
+<span class="font-['Inter'] text-[11px] font-semibold tracking-wide">Home</span>
+</a>
+<a class="flex flex-col items-center justify-center text-stone-500 dark:text-stone-400 px-5 py-1.5 hover:text-[#416900] dark:hover:text-[#acf847] Active: scale-90 duration-200 ease-out" href="#">
+<span class="material-symbols-outlined">storefront</span>
+<span class="font-['Inter'] text-[11px] font-semibold tracking-wide">Market</span>
+</a>
+<a class="flex flex-col items-center justify-center bg-[#064E3B] dark:bg-[#acf847] text-white dark:text-[#003527] rounded-full px-5 py-1.5 transition-all Active: scale-90 duration-200 ease-out" href="#">
+<span class="material-symbols-outlined" style="font-variation-settings: 'FILL' 1;">event_upcoming</span>
+<span class="font-['Inter'] text-[11px] font-semibold tracking-wide">Calendar</span>
+</a>
+<a class="flex flex-col items-center justify-center text-stone-500 dark:text-stone-400 px-5 py-1.5 hover:text-[#416900] dark:hover:text-[#acf847] Active: scale-90 duration-200 ease-out" href="#">
+<span class="material-symbols-outlined">person</span>
+<span class="font-['Inter'] text-[11px] font-semibold tracking-wide">Profile</span>
+</a>
+</nav>
+<!-- Floating Action Button (Only on Mobile Main Screens) -->
+<button class="md:hidden fixed bottom-24 right-6 w-14 h-14 bg-secondary-container text-on-secondary-container rounded-full shadow-2xl flex items-center justify-center Active: scale-90 transition-all z-40">
+<span class="material-symbols-outlined text-3xl">add</span>
+</button>
+</body></html>

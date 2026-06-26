@@ -1,0 +1,2785 @@
+(Note:
+All text in RED in this template is for instruction purpose only.
+Delete this info in final report
+Use font TIMES NEW ROMAN for the entire report.
+Page layout – A4 size, normal margin, 1.5 line spacing.
+Chapter headings - use 16 font size, bold, Centre alignment, each chapter should begin on new page.
+Section headings – use 14 font size, bold, Left alignment
+Sub-section headings- use 12 font size, bold, Left alignment
+Section and Sub-section body – use 12 font size, Justification alignment, Text should be in black colour.
+The page number should be in footer at middle.
+The page number of the Acknowledgement, Abstract, List of Tables, List of Contents, must be in Roman numerals (e.g. i, ii, iii, …….).
+All other pages must be assigned number (1, 2, 3, 4, …….) starting from 1. However, a page number should not appear on the title page.
+In the Table of Contents, four levels of heading can be used, inclusive of the chapter titles. There can be two subheadings within a level of heading.
+Do not use AI tools like ChatGPT, Gemini, etc. for content, as AI tools often collate text from various sources and lead to high level of plagiarism. Overall similarity should be below 20% and single-source similarity below 3%.
+The references must be arranged in the order of their appearance. Each entry of the reference must be referred to at least once in the body of the thesis by using a format as mentioned in Harvard referencing and citation style.
+Refer Reference section for detailed instruction on references
+Every Figure must have the figure number, caption and centre aligned at bottom of the figure e.g. Figure 1.3, Figure 2.5, etc. The number 1 and 2 before decimal represents chapter number in which the figure belongs, while the number 3 and 5 after decimal indicates their order of figure within the chapter.
+Every Table must have the table number, caption is centre aligned at the top of the table
+e.g. Table 1.2, Table 3.4, etc. The number 1 and 3 before decimal represents chapter number in which the table belongs, while the number 2 and 4 after decimal indicates their order of table within the chapter.
+Every Figure and Table must be in-text cited in the body of sections or sub-section
+The appendixes should be used to contain lengthy or detailed supplementary documentation that may not be appropriate if inserted in the body of the thesis. Examples are data sheets of components, diagrams, models, sample documents, data dictionary, systems structured charts, program listing, user’s manuals, system’s manuals, and glossary of terms.
+Open source tools like Draw.io, Dia, etc. can be used to draw the block diagram, flowchart, domain model, etc.
+
+RUBRICS for Project work
+
+Criteria
+Excellent
+Good
+Satisfactory
+Unsatisfactory
+Abstract &
+Abstract is a concise,
+Abstract and
+Abstract or
+Abstract and
+Introduction
+powerful summary.
+introduction are clear
+introduction may be
+introduction are
+
+Introduction defines the
+and functional. The
+vague. Problem and
+missing or illogical.
+
+problem and objectives
+problem and
+objectives are present
+The report’s purpose
+
+clearly, providing strong
+objectives are well-
+but lack specificity.
+is unclear.
+
+motivation and context.
+stated.
+
+
+Literature
+Comprehensive and
+Covers relevant
+Includes some
+Absent, irrelevant, or
+Review
+critical analysis of
+sources and provides
+relevant sources but
+a simple list of
+
+existing literature. Gaps
+a good overview.
+may be superficial.
+summaries without
+
+are identified and
+Connection to the
+The connection to the
+critical engagement.
+
+justified. The project is
+project is clear.
+project is weak.
+
+
+effectively positioned
+
+
+
+
+within the field.
+
+
+
+Methodology
+Described with
+Described clearly and
+Explained, but some
+Missing or poorly
+And
+exceptional clarity,
+accurately; the project
+details are missing or
+described, providing
+Project
+allowing for full
+could likely be
+unclear, making it
+insufficient detail to
+Management
+reproducibility. Strong,
+replicated. A logical
+difficult to fully
+understand the
+
+well-reasoned
+justification for the
+replicate the work.
+project's execution.
+
+justification for the
+methods is provided.
+
+
+
+chosen approach, tools,
+
+
+
+
+and materials.
+
+
+
+
+The project plan is
+The project
+Provides a simple
+Lacks any discussion
+
+detailed and realistic,
+management
+timeline without a
+of project
+
+demonstrating
+approach is logical
+deeper reflection on
+management, or the
+
+exceptional foresight in
+and well-documented.
+constraints or
+project was clearly
+
+managing scope, time,
+The report shows that
+challenges faced.
+unmanaged.
+
+and resources. Includes a
+the project was
+
+
+
+thoughtful reflection on
+executed efficiently.
+
+
+
+challenges and lessons
+
+
+
+
+learned.
+
+
+
+Analysis and
+Design choices are
+The design is logical
+Design is functional,
+Design is flawed or
+Design
+innovative, thoroughly
+and effective, with a
+but reasoning is not
+non-existent. No
+
+justified, and directly
+clear rationale for the
+well-articulated.
+justification for the
+
+address requirements.
+choices made.
+Limited or no
+design or a poor
+
+Robust analysis of
+Analysis of
+discussion of
+understanding of
+
+alternatives and well-
+alternatives is present
+alternative
+design principles.
+
+documented decisions.
+and sound.
+approaches.
+
+Implementation
+Meticulous and well-
+The implementation is
+Implementation
+Implementation is
+
+structured account of
+clearly documented
+section is present, but
+not described, or the
+
+hardware and software
+and functional.
+details are sparse or
+documentation is
+
+implementation. Code is
+Adequate detail on
+confusing. The
+inaccurate and
+
+well-commented, and
+the software and
+hardware or software
+cannot be used to
+
+schematics are clear. The
+hardware components
+is not fully described.
+replicate the project.
+
+implementation is robust
+is provided.
+
+
+
+and functional.
+
+
+
+
+Evaluation and Results
+Results are presented with impeccable clarity. The evaluation is rigorous and unbiased, with insightful analysis that directly addresses objectives.
+Results are presented clearly and accurately. The evaluation is sound and addresses most objectives.
+Results are presented but may be difficult to interpret due to poor organization. The analysis is basic and lacks depth.
+Results are presented without evaluation or are illogical. The data is incomplete, inaccurate, or uninterpretable.
+Social, Legal, Ethical, & Sustainability
+Includes a comprehensive and insightful discussion of the project's broader implications. Potential risks are identified and mitigated. Demonstrates a strong sense of responsibility.
+Includes a well- considered section on the broader impact of the project. Key considerations are discussed.
+Includes a superficial or generic mention of social and ethical issues, without a deep analysis.
+Completely ignores the social, legal, ethical, and sustainability dimensions of the project.
+Conclusion
+Provides a concise and
+Accurately
+A simple restatement of
+Missing, inaccurate, or
+
+powerful summary of
+summarizes the
+the results. May fail to
+unrelated to the rest of
+
+key findings, answering
+main findings and
+answer research
+the report. No
+
+all research questions. It
+addresses the
+questions or discuss
+recommendations for
+
+discusses the project's
+research questions.
+implications.
+future work are
+
+significance and
+Discusses the
+Recommendations are
+provided.
+
+limitations, and provides
+project’s
+vague.
+
+
+specific
+significance and
+
+
+
+recommendations for
+offers a few
+
+
+
+future research.
+suggestions for
+
+
+
+
+future work.
+
+
+References
+All sources are
+References are
+Several errors in the
+References are
+
+meticulously cited using
+mostly correct and
+reference list or
+missing, incomplete,
+
+a consistent and correct
+follow a consistent
+citations. The style is
+or incorrectly
+
+academic style. The
+style, with only
+not consistently
+formatted.
+
+bibliography is
+minor errors. The
+followed.
+
+
+comprehensive and
+bibliography is
+
+
+
+includes all references
+complete.
+
+
+
+mentioned.
+
+
+
+Organization
+Flawlessly organized
+Well-organized with
+Organization is
+Lacks a logical
+& Writing
+with a logical flow. All
+a logical structure.
+acceptable but could be
+structure, making it
+
+sections are clearly
+Headings and
+improved. Some
+confusing. Writing is
+
+labeled, transitions are
+subheadings are
+sections may feel out of
+difficult to understand
+
+smooth, and the writing
+used effectively.
+place. Writing contains
+due to numerous
+
+is clear, concise, and free
+Writing is generally
+several errors that may
+errors in grammar and
+
+of grammatical errors.
+clear and
+distract the reader.
+sentence structure.
+
+
+professional, with
+
+
+
+
+only minor errors.
+
+
+
+
+School of Information Science
+Department of Master of Computer Applications
+
+
+<TITLE>
+Declaration:
+This report template is intended for guidance purposes only and is not an official document.
+Also, the examples provided are compiled from
+multiple sources solely for the purpose of illustration and do not constitute a single problem.
+By
+<Student name, id>
+
+
+
+
+Supervisor
+<Name>
+
+<Month Year>
+
+
+
+
+
+Department of Master of Computer Applications
+
+BONAFIDE CERTIFICATE
+
+Certified that this project titled “TITLE OF THE REPORT” is a bonafide work of “NAME (ROLL NO)”, who have successfully carried out the project work and submitted the report for partial fulfilment of the requirements for the award of the degree of Master of Computer Applications during 2025-26.
+
+
+
+
+
+
+
+
+Guide Name Project Guide Master of Computer Applications
+Presidency University
+Dr. M Renuga Devi
+HOD
+Master of Computer Applications
+Presidency University
+Dr. R Mahalakshmi
+Associate Dean School of Information Science
+Presidency University
+
+
+
+
+
+
+Examiners
+
+Sl. no.
+Name
+Signature
+Date
+1
+
+
+
+2
+
+
+
+
+DECLARATION
+
+We the students of first year Master of Computer Applications at Presidency University, Bengaluru, named <Project member names without USN>, hereby declare that the major project titled “<PROJECT TITLE>” has been independently carried out by us and submitted in partial fulfillment for the award of the degree of Master of Computer Applications during the academic year of 2025-26. Further, the matter embodied in the project has not been submitted previously by anybody for the award of any Degree or Diploma to any other institution.
+
+
+<Student Name 1>
+USN:
+XXXXXXXX
+<Signature 1>
+
+
+
+PLACE: BENGALURU DATE: DD-MM-YYYY
+
+ACKNOWLEDGEMENT
+
+For completing this project work, We/I have received the support and the guidance from many people whom I would like to mention with deep sense of gratitude and indebtedness. We extend our gratitude to our beloved Chancellor, Vice Chancellor, Pro-Vice Chancellor, and Registrar for their support and encouragement in completion of the project.
+I would like to sincerely thank my internal guide Dr./Mr. Name of guide, Designation, Master of Computer Applications, Presidency University, for his/her moral support, motivation, timely guidance and encouragement provided to us during the period of our project work.
+I am also thankful to Dr. M. Renuga Devi, Professor, Head of the Department of Master of Computer Applications, School of Information Science, Presidency University, for her mentorship and encouragement.
+We express our cordial thanks to Dr. R Mahalakshmi, Associate Dean (School of Information Science), School of Computer Science Engineering and Information Science of Presidency University for providing the required facilities and intellectually stimulating environment that aided in the completion of my project work.
+We are grateful to Section Coordinator name, Project Coordinators, Department of Electronics and Communication Engineering, for facilitating research activities and timely assessments.
+
+We are also grateful to Teaching and Non-Teaching staff of Department of Master of Computer Applications and also staff from other departments who have extended their valuable help and cooperation.
+<STUDENT NAME 1 >
+
+Abstract
+
+(The Abstract
+Should be about maximum a page,
+First few sentences briefly describe the background of the project,
+Next few sentences the concept or approach used in the project, and
+The last few sentences summarises the results)
+
+Table of Content
+
+
+Sl. No.
+Title
+Page No.
+
+Declaration
+
+
+Acknowledgement
+
+
+Abstract
+
+
+List of Figures
+
+
+List of Tables
+
+
+Abbreviations
+
+1.
+Introduction
+Background
+Problem Statement and Motivation
+Existing Systems and Technologies
+Proposed approach
+Objectives of the Project
+SDGs
+Overview of project report
+
+2.
+Literature review
+
+3.
+Methodology
+
+4.
+Project management
+Project timeline
+Risk analysis
+Project budget
+
+5.
+System Analysis and Design
+Requirements
+Use Case Diagrams
+Data Flow Diagrams (DFD)
+System Architecture / Block Diagram
+Database Design (ER Diagram, Schema)
+User Interface Design
+Technology Stack and Standards Followed
+
+
+6.
+Implementation and Simulation
+Hardware / Software Requirements
+Development Tools and Frameworks Used
+Implementation Details (Modules and Functions)
+Simulation and Testing Environment
+
+7.
+Evaluation and Results
+Test Plan and Test Cases
+Test Results and Analysis
+Performance Evaluation
+Discussion of Results / Insights
+
+8.
+Social, Legal, Ethical, Sustainability and Safety Aspects
+Social aspects
+Legal aspects
+Ethical aspects
+Sustainability aspects
+Safety aspects
+
+9.
+Conclusion and Future Work
+
+
+References
+
+
+Appendix
+
+
+List of Figures
+(include list of all figure and page no e.g.
+Figure no.
+Caption
+Page no
+1.1
+Sustainable development goals
+12
+3.1
+The V model methodology
+14
+3.2
+Another example of the V model methodology
+14
+…..
+
+
+
+
+List of Tables
+
+(include list of
+all tables and page no
+
+e.g.
+
+
+Table no.
+Caption
+Page no.
+2.1
+Summary of Literature reviews
+15
+4.1
+Project planning timeline
+20
+4.2
+Project implementation timeline
+20
+…….
+
+
+
+List of Abbreviations
+(include all abbreviations used in report in alphabetic order) e.g.
+IoTInternet of Things
+SDGSustainable Development Goal
+….
+
+
+
+
+
+(The Introduction should describe
+Chapter 1
+Introduction
+
+The background of the project,
+Aim of project,
+The need of the project and the statistics, and
+The of prior existing technologies)
+
+Background
+Describe the background of the project and
+ensure proper citation and referencing the source.
+Statistics
+Describe the statistics (preferably the regional) and the need of the project and
+ensure proper citation and referencing the source.
+Prior existing technologies
+Describe the prior existing technologies of the project and
+ensure proper citation and referencing the source.
+Proposed approach
+Aim of project
+Motivation
+Proposed approach
+Applications of the project
+Limitation of the proposed approach
+
+Objectives
+(The objectives should be 3 to 5.
+Do not list benefits or applications as objectives.
+Objectives should encompass various aspects listed below (but not limited to) of the project and
+Behaviour -
+Analysis -
+System management –
+Security –
+Deployment -
+should be demonstrable in the project.) e.g.
+
+E.g. Interfacing light and temperature sensor to microcontroller to monitor ambient light and temperature in range of 100C to 600C)
+
+
+SDGs
+Align the project objectives with UN SDGs as illustrated in Fig 1.1.
+assess how your project aligns with some UN SDGs and
+ensure proper citation and referencing
+
+Fig 1.1 Sustainable development goals [1]
+Overview of project report
+(gives an Overview of the report should be in a single paragraph summarising all chapters. e.g.
+Chapter 1 provides an introduction on the project topic which is…Chapter 2 discusses the literature reviews …, Chapter 3 describes the methodology …. Chapter 4 covers the required project budgeting…, Chapter 8, entitled ‘ABC’, discusses the …)
+
+Chapter 2
+Literature review
+(Summarise in own word the context at least ten literature taken from conference or journal papers.
+Note: Do not summarise from websites, wikipedia, blogs, etc.
+Summarising includes understanding the context (like the concept/approach used in literature, the results obtained, the future work and recommendations) and write review in own words without use of AI tools. May also include illustrations from literature wherever essential / necessary.
+Discuss the concepts, approach, methods, analysis, and issues adapted in the project.
+Identify the limitations, inconsistencies, gaps, contradictions, differences.
+Suggest improvements.
+(do not include detailed description, images, tables, data, illustration, results, graphs, etc. from the literature unless all that information is used as basis for your project)
+(do not use AI tools like ChatGPT, Gemini, etc. to summarise as AI tools often collate text from various sources and lead to high level of
+plagiarism.)
+The key points should also be presented in a table.
+each as a single paragraph of about half page
+Ensure proper citation and referencing)
+e.g.
+NarasimhaRao et al. implemented an IOT weather forecasting system that measures various parameters such as temperature, humidity, and rainfall and air pollution comparing with the traditional weather forecasting system. The Iot weather forecasting gives continuous and real time data. The information from the sensors is sent to the cloud server. To make sure that there is no external harm for the data, the data security in cloud provides with encryption and decryption of data while retrieving the information from cloud. This reduces corruption of data, minimizes communication overhead, enhances the security and also helps to give wise predictions. The work uses the traditional database system management is replaced by cloud, cloud has comparatively less maintenance cost, data storage cost and it increases the scalability. It provide enhanced security a homomorphic encryption technique is used, this provides a safer communication between the cloud and user. The homomorphic technique has many advantages compared to the present security systems [2].
+Raju and Laxmi examine the use of supervised machine learning algorithm and short-term load forecasting for iot based online load forecasting. The data obtained from a research lab is used for training ML algorithms to short term load forecasting. Online forecasting is considered more effective as it uses recent data for forecasting and training. Different regression algorithms are implemented on cloud for forecasting power consumption. The effectiveness of ML algorithms is known by calculating the performance parameters such as RMSE, MSE and so on. The methodology presented in this paper offers real time prediction of the power
+
+consumption due to this its very much preferred in IOT based online home energy management system [3].
+
+
+2.1 Summary of Literatures reviewed
+e.g. summarise the literatures
+Table 2.1 Summary of Literature reviews
+
+
+Chapter 3
+Methodology
+(Identify a suitable methodology for the project, like V-model, Spiral, Devops, Onion, SDLC, Waterfall, Agile, Scrum, etc. illustrated below
+Describe the stages of the project by mapping to the stages of methodology viz. requirements (specification, literature), system design, functional design, unit design (hardware, software, cloud), unit testing, integration testing, Verification, Validation, etc.)
+Use open source tools viz. Draw.io, Dia, or any other to draw block diagrams.
+Ensure proper citation and referencing.
+
+
+Figure 3.1 The V model methodology [4]
+
+Figure 3.2 Another example of the V model methodology [5]
+
+Figure 3.1 and Figure 3.2 shows the V-model methodology. The verification stage includes phases …., whereas the validation phase includes ….
+Figure 3.3 illustrates the W- model methodology. Each phase of the W-model has a corresponding test requirements and testing phase…..
+Note:
+Every Fig must be captioned below the figure.
+Every figure must be described along with in-text citation in body of sections as shown above paragraphs.
+Also it should be added to the list of figures section
+Ensure proper citation and referencing for figures taken from sources.
+
+
+Figure 3.3 The W model methodology [6]
+
+Figure 3.4 The Devops methodology [7]
+
+
+
+(a)
+
+
+(b)
+Figure 3.5 (a) Onion methodology, (b) another example [8]
+
+
+
+Figure 3.6 SDLC phases [9]
+
+
+Figure 3.7 Summary of various methodology [10]
+
+
+
+
+
+Figure 3.8 Some more methodologies [11]
+
+
+
+
+
+Figure 3.9 Summary of project breakdown to task [12]
+
+
+
+
+Project timeline
+Chapter 4
+Project Management
+
+(Show a tabular visual representation of project breakdown, project's schedule, outlining tasks, milestones, and deadlines in chronological order)
+Also called Gantt chart is a visual, bar-chart-based project management tool that displays tasks, their duration, start and end dates, dependencies, and milestones along a timeline. It provides a clear overview of a project's schedule and progress, allowing teams to track work, identify potential bottlenecks, and ensure alignment on project goals.
+What a Gantt Chart Shows
+Tasks: A vertical list of all the activities required to complete a project.
+Timeline: A horizontal axis that represents time, showing the duration of the project.
+Bars (Gantt Bars): Horizontal bars on the timeline, with their length indicating a task's duration and position showing its start and end dates.
+Dependencies: Lines or arrows connecting tasks to show which tasks must be completed before others can begin.
+Milestones: Important points or due dates in the project, often marked by a diamond or star symbol.
+Progress: The bars can be shaded or filled to show the percentage of a task that has been completed.
+Assignees: The person or team responsible for each task can be shown on the chart.
+How It's Used
+Planning: Helps in breaking down a project into manageable tasks and scheduling them in a logical sequence.
+Scheduling: Creates a visual roadmap of the project timeline, allowing for better time management.
+Tracking Progress: Provides a quick, at-a-glance view of project status and task completion.
+Resource Management: Allows teams to assign tasks and see workloads.
+Communication: Offers a clear, shared view of the project for all team members and stakeholders, ensuring everyone is aligned.
+To prepare Gantt chart Use open source tools GanttProject or Google Sheets. It can also be prepared using MS Excel, or MS Project that may require license.
+
+
+
+
+
+
+Project Planning
+
+Table 4.1 summarises the timeline during the project planning phase. The milestones are identified and the deadlines are ……
+Table 4.2 summarises the timeline during the project implementation phase……
+Note:
+Every Table must be captioned above the table
+Every table must be described along with in-text citation in body of sections as shown above paragraph.
+Also it should be added to the list of tables section
+Ensure proper citation and referencing for Tables taken from sources.)
+Table 4.1 Project planning timeline
+
+
+
+(Describe the project timeline and describe the suitability for the project)
+
+Project implementation
+Table 4.2 Project implementation timeline
+
+(Describe the project timeline and describe the suitability for the project)
+
+Risk analysis
+
+(PESTLE analysis - assess how these factors might impact a project's success and allows for proactive risk mitigation and opportunity maximization)
+
+Table 4.3 Example of PESTEL analysis [13]
+
+Table 4.4 Another example of PESTEL analysis [14]
+
+Table 4.5 Example of Project phase risk matrix [15]
+
+(Describe the risk these factors might impact a project's success and the appropriate risk mitigation for the project)
+
+Project budget
+Step 1: List All Tasks and Resource Requirements Step 2: Check Team Availability
+Step 3: Estimate Task Duration
+Step 4: Use Your Experience and Data
+
+Step 5: Set the Project Budget
+Step 6: Keep Track of the Project Budget and Assess the Team Sample Template for project budget is shown in Table 4.6
+Table 4.6 Example of project budget [16]
+
+
+Chapter 5
+Analysis and Design
+(Analysis and design are distinct but interconnected phases in a systems development. Analysis focuses on understanding the problem and gathering requirements, while design focuses on creating a solution based on those requirements. Essentially, analysis identifies "what" a system needs to do, and design determines "how" it will be done.
+Design is the process of creating a plan, concept, or sketch for an object, system, or process with a specific purpose or function. It involves conceiving, structuring, computing values to derive the appropriate components, and arranging elements to meet a particular need or goal, often incorporating both functional and aesthetic considerations. The term can also refer to the resulting blueprint, pattern, or the inherent arrangement of an object's components.
+Analysis is the detailed, organized examination of a complex topic, substance, or situation by breaking it down into its smaller, constituent parts to understand its nature, essential features, or underlying causes. It involves carefully studying the pieces to gain deeper insight into the whole, often to make a decision, draw conclusions, or solve a problem.
+Ensure proper citation and referencing)
+Requirements
+the requirements of the system.
+In this step, the system purpose, behaviour and requirements are captured. Requirements can be:
+System HW Requirement Phase
+Identify Initial conditions
+Determine Input parameters
+System outcomes
+Formulate relations
+Identify system constraints
+System SW Requirement Phase
+Identify Initial conditions
+Determine Input parameters
+System outcomes
+Formulate relations
+Identify system constraints
+Data collection requirements
+Data analysis requirements
+System management requirements
+Security requirements
+User interface requirements
+
+e.g. For home automation system the purpose and requirements specification is in Table 5.1 as follows:
+
+Table 5.1 Summarizing requirements
+
+Purpose
+A home automation system that allows controlling the lights remotely using a web application
+
+
+Behaviour
+Home automation system should support two modes: auto and manual
+Auto: System measures the light level in the room and switches on the light when it is dark
+Manual: Allows remotely switching lights on and off
+System
+Management
+System should provide remote monitoring and control functions
+Data Analysis
+System should perform local analysis of the data
+Application Deployment
+Application should be deployed locally, but should be accessible remotely
+Security
+Should provide basic security like user authentication
+
+System HW design phase
+Determine functional blocks
+Develop process flow
+Identify inconsistencies
+Design interfaces
+System design and analysis
+Developing an integrated test plan
+System SW design phase
+Determine functional blocks
+Develop process flow
+Identify inconsistencies
+Design interfaces
+System design and analysis
+developing an integrated test plan
+
+Block diagram
+(The functional block diagram.
+Show inputs blocks on the left, the processor in middle, the output block to the right. Show relation between blocks with appropriate direction arrows.
+Blocks should be the functions and not names of components.
+Circuit diagram is not block diagram)
+Use open source tools viz. Draw.io, Dia, or any other to draw block diagrams.
+
+e.g.
+
+Figure 5.1 Functional block diagram (Describe the block diagram and describe the suitability for the project)
+Figure 5.1 shows the functional block diagram of the system. It consist of ……
+System Flow chart
+(The system flow chart
+Visualise the process flow of initialisation, inputs, processing, conditions, and outputs)
+Use open source tools viz. Draw.io, Dia, or any other to draw flow diagrams.
+e.g.
+
+Figure 5.2 System flow chart (Describe the flowchart and describe the suitability for the project)
+Figure 5.2 shows the system flow chart. The flow begins with initialisation……
+
+Functional HW unit design phase
+Identify HW components
+HW Component datasheets
+Compare components
+Unit design and analysis
+Develop a unit Test plan
+Functional SW unit design phase
+Identify SW components
+HW Component datasheets
+Unit design and analysis
+Develop a unit Test plan
+Choosing devices
+(viz. microcontroller, sensor, actuators)
+(Instructions
+Search for multiple models of each type of device in columns
+Summarize from DATASHEETS the feature in rows.
+Add rows to include additional features/specifications not listed in table.
+Leave table cells blank wherever data is not available
+Below each table include the references for every datasheet referred along with the URL.)
+
+Choosing Processor
+(While choosing the IoT device/Processor for the IoT application,
+Summarize (as table below) the specifications (like digital ports, analog port, Serial port, I2C, UART, etc) of various IoT devices referring to the DATASHEETS and
+Then choose the device that has the all necessary features for the project
+Ensure proper citation and referencing.)
+(Example look for various processors (Arduino, Raspberry Pi, ESP32, etc.) and compare the specifications)
+Table 5.2 Comparing features of different processors
+
+Features/ Specification
+Arduino
+Raspberry Pi
+NodeMCU
+ESP32 dev kit
+
+Power Supply
+5V
+
+
+
+
+Number of Digital I/O ports
+14
+
+
+
+
+Voltage and
+Current rating for digital port
+5V
+20mA
+
+
+
+
+Number of Analog ports
+6
+
+
+
+
+Voltage range of analog port
+0 – 5V
+
+
+
+
+
+Number of Serial ports
+1
+
+
+
+
+I2C
+1
+
+
+
+
+SPI
+1
+
+
+
+
+UART
+1
+
+
+
+
+PWM
+6
+
+
+
+
+RAM
+2KB SRAM,
+32KB
+FLASH, 1KB EEPROM
+
+
+
+
+Timers/ Counters
+2x 8-bit Timer/Counter 1x 16-bit
+Timer/Counter
+
+
+
+
+Bluetooth
+No
+
+
+
+
+Wireless
+No
+
+
+
+
+Other features
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+References (include in the reference section at the end)
+Arduino, Arduino UNO3, https://docs.arduino.cc/hardware/uno-rev3/#tech-specs
+
+
+Choosing devices (Sensors, driver circuits, Actuators)
+For every device required in the project, while choosing the devices (Sensors, driver circuits, Actuators, etc) that are connected to the IoT devices,
+Summarize (as table below) the specifications (like working principle, output type, voltage range, sensitivity, etc) of various devices referring to the DATASHEETS and
+Then choose the device that meet the IoT device.
+Ensure proper citation and referencing of datasheets.
+(Example look for various temperature sensor (LM35, DHT11, etc) and compare the specifications)
+
+Temperature sensor
+
+Table 5.3 Comparing features of different temperature sensors
+
+Features/ Specification
+LM35
+DHT11
+Thermistor
+Thermocouple
+Describe Working principle (state the relation between O/P to
+I/P)
+Detects temperature and convert to proportional
+voltage
+
+
+
+Sensitivity (change in O/P for unit change in I/P)
+10mV / 0C
+
+
+
+Resolution (smallest value that can be
+measured)
+10mV
+
+
+
+Accuracy (how closely
+measured value matches the true or expected value of the quantity
+being measured.)
+±0.5°C at 25°C
+
+
+
+Linearity (O/P signal
+reflects a linear
+relationship with the I/P)
+Non-Linearity Only ±¼°C Typical
+
+
+
+Range
+(the minimum and maximum values that it can accurately
+measure)
+-55 0C to 150 0C
+
+
+
+Output Type
+(analog, digital, Serial, etc)
+Analog
+
+
+
+Power Supply
+4 V to 30 V
+
+
+
+Power consumption
+60 μA
+
+
+
+Drift
+(gradual change in O/P over time,
+even when the I/P remains constant)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+References (include in the reference section at the end)
+Ti, LM35 Specifications, https://www.ti.com/product/LM35
+
+Similarly do for all other devices required in the project
+Moisture Sensor
+Humidity Sensor
+Pressure Sensor
+Motion Sensor
+Distance Sensor
+Location Sensor
+Optical Sensor
+Velocity Sensor
+Level Sensor
+Chemical Sensor
+
+Relay Actuators
+Motor drivers
+Solenoids
+Servo motors
+DC motors
+Stepper motors
+
+Designing units
+Breakdown the project into sub-project or units and design each unit of the project
+Identify the interfacing circuits required for each unit and
+compute the values for signal conditioning like level shifting, amplification, A/D conversion, etc.
+
+Figure 5.3 Example of interfacing a one unit
+
+e.g.
+1. Design of the temperature unit
+
+
+Figure 5.4 Example of computing the values for the temperature unit
+
+
+Computing values for LM35
+10𝑚𝑉
+𝑆𝑒𝑛𝑠𝑖𝑡𝑖𝑣𝑖𝑡𝑦 =
+𝑑𝑒𝑔𝐶
+Therefore, for temperature 200C
+𝑆𝑒𝑛𝑠𝑜𝑟 𝑜𝑢𝑡𝑝𝑢𝑡 = 𝑆𝑒𝑛𝑠𝑖𝑡𝑖𝑣𝑖𝑡𝑦 𝑥 𝑚𝑒𝑎𝑠𝑢𝑟𝑒𝑑 𝑡𝑒𝑚𝑝𝑒𝑟𝑎𝑡𝑢𝑟𝑒 = 20𝑑𝑒𝑔𝐶 𝑥 10𝑚𝑉
+𝑆𝑒𝑛𝑠𝑜𝑟 𝑜𝑢𝑡𝑝𝑢𝑡 = 200𝑚𝑉
+Using 16-bit ADC for converting Analog to digital
+
+
+5
+𝑅𝑒𝑠𝑜𝑙𝑢𝑡𝑖𝑜𝑛 𝑜𝑓 𝐴𝐷𝐶 = 216
+5
+=
+65536
+= 76.29 𝑥 10−6
+
+200 𝑥 10−3
+𝐷𝑖𝑔𝑖𝑡𝑎𝑙 𝑣𝑎𝑙𝑢𝑒 = 76.29 𝑥 10−6 = 2621.44 ~ 2621
+Computing Temperature value from digital value
+𝑇𝑒𝑚𝑝𝑒𝑟𝑎𝑡𝑢𝑟𝑒 =  2621 𝑥 76.29 𝑥 10−6 = 0.1999896576 𝑑𝑒𝑔𝐶
+𝐸𝑟𝑟𝑜𝑟 𝑇𝑒𝑚𝑝𝑒𝑟𝑎𝑡𝑢𝑟𝑒 =  .200 − 0.1999896576 𝑑𝑒𝑔𝐶 = −0.0000103424
+= 10.34 𝑥 10−6𝑑𝑒𝑔𝐶
+(Use open source tools viz. Draw.io, Dia, or any other to draw block diagrams.)
+Similarly do for all other units of the project
+
+Standards
+(Discuss and describe the various standards that are relevant and required for the project
+Ensure proper citation and referencing.
+Standards are technical specifications that ensure interoperability, security, and data exchange between various devices and systems. They cover areas like communication protocols, data formats, security, and device management, allowing devices from different manufacturers to work together seamlessly.
+Key aspects of IoT standards are Interoperability, Security, Data Formats and Protocols, Device Management.
+Communication Protocols: Standards like Wi-Fi, Bluetooth, ZigBee, MQTT, and CoAP.
+Data Formats: Standards like JSON, XML, and CBOR are used for exchanging data between devices and platforms.
+Security: Standards such as TLS for secure communication and standards related to data privacy and device security.
+Architecture and Interoperability: Standards related to layered architectures or specific device interactions.
+Benefits of using IoT standards are
+Reduced Development Costs: Standards streamline development by providing a common framework and reducing the need for custom solutions.
+Improved Interoperability: Standards enable devices from different manufacturers to work together, creating a more flexible and dynamic IoT ecosystem.
+Enhanced Security: Standards provide guidance on security best practices, helping to mitigate risks and protect sensitive data.
+Increased Innovation: By providing a foundation for interoperability and security, standards enable innovation and the development of new IoT applications.
+e.g.
+IEEE develops standards for various aspects of IoT, including Wireless communication (802.11, 802.15),
+smart grids (1547), and intelligent transportation (1609)
+
+Key ISO standards for IoT devices include
+Frameworks ISO/IEC 30141 (IoT Reference Architecture),
+Secure design ISO/IEC 27400 and ISO/IEC 27402 (IoT Security & Privacy), and Testing ISO/IEC 21823 series (Interoperability).
+
+ITU: The ITU (International Telecommunication Union) focuses on establishing a global infrastructure for the IoT, ensuring interoperability and advanced services.
+
+DDS (Data Distribution Service): A scalable IoT protocol for real-time and embedded systems, offering interoperable data exchange.
+GS1: GS1 provides standards for identifying objects and capturing data, crucial for the IoT ecosystem.
+Key ISO standards for IT include
+ISO/IEC 27001 for information security management, ISO 9001 for quality management, and
+ISO 20000 for IT service management.
+
+Other relevant standards helping organizations manage risks, improve efficiency, and ensure compliance in a complex IT landscape cover
+business continuity (ISO 22301), data privacy (ISO 27701), and
+Artificial Intelligence management (ISO/IEC 42001)
+
+communication standards – PCI, UART, I2C, SPI, CAN, etc. MQTT, CoAP, OPC UA: These are popular communication protocols used in IoT for different purposes.
+Other standards like Power supply standards, interfacing standards, etc.)
+Mapping with IoTWF reference model layers (in tabular form)
+(The IoT World Forum offers a clean, simplified perspective on IoT and includes edge computing, data storage, and access.
+It provides a clear way of visualizing IoT from a technical perspective.
+Each of the seven layers is broken down into specific functions, and security encompasses the entire model.
+Using this reference model, we are able to achieve the following:
+Decompose the IoT problem into smaller parts
+Identify different technologies at each layer and how they relate to one another
+Define a system in which different parts can be provided by different vendors
+Have a process of defining interfaces that leads to interoperability
+Define a tiered security model that enforced at the transition points between levels)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Figure 5.5 The IoT World Forum Reference Model Table 5.4 Mapping Project layers with IoTWFRM
+
+Layer
+IoT World Forum Reference Model
+Project Layer mapping (Identify different technologies at each layer and how they relate.
+Have a process of
+defining interfaces)
+Security
+(Tiered security model that enforced at the transition points between levels)
+7
+Collaboration and Processes
+(involving people and business processes)
+
+
+6
+Application
+(reporting, analytics, control)
+
+
+5
+Data Abstraction
+(aggregation and access)
+
+
+4
+Data Accumulation
+(Storage)
+
+
+3
+Edge Computing
+(data element analysis and transformation
+
+
+2
+Connectivity
+(communication and processing units)
+
+
+1
+Physical devices and Controllers
+(things)
+
+
+
+Domain model specification
+(The domain model describes the main concepts, entities and objects in the domain of the IoT system to be designed.
+Domain model defines the attributes of the objects and relationships between objects.
+The domain model is independent of any specific technology or platform
+It consist of physical entities, virtual entities, devices, resources, services as defined in table below
+Table 5.5 Description of Domain model
+
+Physical Entity
+The physical identifiable objects in the environment
+IoT system provides information about the physical entity (using sensors) or performs actuation upon the physical entity
+Virtual Entity
+Virtual entity is a representation of the physical entity in the digital world
+For every physical entity there is a virtual entity
+
+Device
+Devices provide a medium for interaction between physical and virtual entities
+Devices are used to gather information from or perform actuation on physical entities
+
+
+Resource
+Resources are software components which can be either on-device or network- resources
+On-device resources are hosted on the device and provide sensing or actuation (eg: operating system)
+Network-resources include software components that are available on the network (eg: database)
+Service
+Services provide an interface for interacting with the physical entity
+Services access resources to perform operations on physical entities
+)
+e.g.
+
+
+Figure 5.6 Domain model for Home automation
+(Describe the domain model specification and describe the suitability for the project)
+Use open source tools viz. Draw.io, Dia, or any other to draw block diagrams.
+Communication model
+(Based on the requirements choose the Communication model and describe the suitability for the project
+The applicable communication model for the project
+Request-response model
+Publish-subscribe model
+Push-pull model
+Exclusive pair model)
+e.g.
+
+Request-Response communication model
+
+Figure 5.7 Communication model suitable for Home automation
+
+(Describe the Communication model and describe the suitability for the project)
+Use open source tools viz. Draw.io, Dia, or any other to draw block diagrams.
+
+
+IoT deployment level
+(Based on the requirements choose the IoT application deployment level and describe the suitability for the project
+The applicable IoT deployment level for the project
+IoT deployment Level 1
+IoT deployment Level 2
+IoT deployment Level 3
+IoT deployment Level 4
+IoT deployment Level 5
+IoT deployment Level 6)
+e.g.
+
+
+Figure 5.8 IoT deployment level suitable for Home automation
+
+(Describe the IoT deployment level and describe the suitability for the project)
+Use open source tools viz. Draw.io, Dia, or any other to draw block diagrams.
+
+
+Functional view
+(The functional view defines the functions of the IoT systems grouped into various functional groups. Decompose the project and describe it through the functional view
+Each functional group provides functionalities for interacting with concepts in the domain model and information related to the concepts.
+The functional groups in a functional view include: Device, Communication, Services, Management, Security, and Application.)
+
+
+
+
+Figure 5.9 Functional view for Home automation
+(Describe the functional view and describe the suitability for the project)
+Use open source tools viz. Draw.io, Dia, or any other to draw block diagrams.
+
+
+Mapping deployment level with functional blocks
+(The mapping between the IoT level and the functional groups as suitable for the project. Describe the mapping)
+e.g.
+
+
+Figure 5.10 mapping IoT deployment level with functional view
+(Describe the mapping between the IoT level and the functional view and describe the suitability for the project)
+Use open source tools viz. Draw.io, Dia, or any other to draw block diagrams.
+
+
+Operational view
+(define communication options, service hosting options, storage options, device options, various options related to the IoT system deployment and operation are defined, such as:
+Service hosting options
+Storage options
+Device options
+Application hosting options)
+e.g.
+
+Figure 5.11 Operational view
+(Describe the operational view and describe the suitability for the project)
+Use open source tools viz. Draw.io, Dia, or any other to draw block diagrams.
+
+
+
+Figure 5.12 another Example of operational view
+
+
+Other Design aspects
+Process specification
+Information model specification
+Service specification
+Etc.
+
+Chapter 6
+Hardware, Software and Simulation
+
+Hardware
+(include
+The circuit diagram and description of each sub-project or functional unit.
+The integration and description of sub-project or functional unit to realize complete project.
+The description of hardware tools required and their configuration process for development of hardware.
+Ensure proper citation and referencing.
+NOTE: DO NOT insert images and description of hardware components
+e.g.
+Hardware development tools for legacy MCUs.
+Debugger and Programmer tools. Debugging and programming tools and accessories.
+Reference Designs. Application-specific designs showcasing complete system solutions
+Explorer Kits. Low-cost exploratory kits - to get you started.
+Starter Kits. Modular kits for software development and feature evaluation of IoT devices.
+Radio Boards. Wireless starter kit plug-in boards featuring specific SoC or module wireless devices.
+Expansion boards. Starter kit and ecosystem accessory boards
+Evaluation Kits. Product and feature evaluation kits
+Development Kits. Full- featured application development kits
+Pro Kits. Modular kits for software development and feature evaluation of IoT devices.
+Thunderboards. Low-cost software development and prototyping kit for IoT devices)
+
+Software development tools
+(include the software programs and platforms tools that help streamline the software development lifecycle by automating tasks, improving collaboration, and ensuring code quality.
+Software used to create, manage, test, and deploy applications, including IDEs, version control systems, project management software, and deployment tools.
+Describe the configuration procedure of each tool as per the project requirement.
+Ensure proper citation and referencing.
+
+NOTE: DO NOT insert images, logo and description of software
+e.g.
+Key Categories of Software Development Tools
+Integrated Development Environments (IDEs) / Code Editors:
+These tools provide a comprehensive environment for writing, editing, and debugging code. Examples: Visual Studio Code, IntelliJ IDEA, Eclipse
+Version Control Systems (VCS):
+Used for tracking changes in code and facilitating collaboration among developers. Examples: Git, GitHub, GitLab, Bitbucket
+Project Management Tools:
+Help teams organize tasks, manage workflows, and track project progress. Examples: Jira, ClickUp, Trello
+Continuous Integration/Continuous Deployment (CI/CD) Tools: Automate the process of building, testing, and deploying software. Examples: Jenkins, GitHub Actions
+Containerization Tools:
+Enable developers to package applications and their dependencies into portable containers. Examples: Docker
+Cloud Platforms:
+Provide cloud services and infrastructure for developing, deploying, and managing applications.
+Examples: Microsoft Azure, Amazon Elastic Compute Cloud
+Collaboration Tools:
+Facilitate communication and discussion within development teams. Examples: Slack
+API Testing Tools:
+Used for designing and testing Application Programming Interfaces (APIs). Examples: Postman
+Testing Frameworks:
+Tools for automating the testing of software applications to ensure quality and identify errors. Examples: Selenium)
+
+Software code
+(include the flowchart, algorithm, code,
+Include flowchart, algorithm and description
+Describe the function of blocks of code,
+Comment each line of code
+Ensure proper citation and referencing.)
+e.g.
+The software for temperature unit is as follows
+The temperature sensor and standard libraries are included and variables are initialised #include <stdio.h>
+#include <dht.h>
+
+float temp;
+int tempPin = 0;
+float tempCelsius = 25.0; float tempFahrenheit = 77.0;
+
+Two function to convert Celsius to Fahrenheit and vice versa are
+// Function to convert Celsius to Fahrenheit float celsiusToFahrenheit(float celsius) {
+return (celsius * 9.0 / 5.0) + 32.0;
+}
+
+// Function to convert Fahrenheit to Celsius float fahrenheitToCelsius(float fahrenheit) {
+return (fahrenheit - 32.0) * 5.0 / 9.0;
+}
+
+The program initialise the variables and call the conversion functions to process the input values and display the results.
+
+// Initilaise the serial monitor void setup() {
+Serial.begin(9600);
+}
+
+// Continuously monitor the temperature sensor and out the value void loop() {
+temp = analogRead(tempPin);
+
+// read analog volt from sensor and save to variable temp temp = temp * 0.48828125;
+// convert the analog volt to its temperature equivalent Serial.print("TEMPERATURE = "); Serial.print(temp); // display temperature value Serial.print("*C");
+Serial.println();
+delay(1000); // update sensor reading each one second Serial .print("Temperature Conversions:\n");
+// Celsius conversions
+Serial.println("%.2f Celsius is %.2f Fahrenheit.\n", tempCelsius, celsiusToFahrenheit(tempCelsius));
+
+// Fahrenheit conversions
+Serial.println("%.2f Fahrenheit is %.2f Celsius.\n", tempFahrenheit, fahrenheitToCelsius(tempFahrenheit));
+
+}
+
+Similarly describe codes of other units and integration of the units.
+Simulation
+Simulation allows for the virtual testing of electronic circuits, microcontrollers, and complex systems, enabling developers to predict behavior, test designs, and optimize performance without physical hardware
+Simulators can be used depending on project
+Circuit Simulators: Tools like LTSpice and TINA-TI provide detailed analysis of analog and digital circuits, allowing users to test component behavior and circuit performance before building prototypes.
+Microcontroller (MCU) Simulators: Software like Proteus VSM, Oshonsoft, and WOKWI simulate the operation of microcontrollers such as Arduino, PIC, and AVR, enabling the testing of microcontroller code.
+Full-System Simulators: Intel Simics is a comprehensive platform for simulating complex hardware systems, facilitating development and debugging of software for these systems.
+Hardware-in-the-Loop (HIL) Simulators: These systems (often supported by platforms like MATLAB/Simulink) test a controller's real-time response to virtual stimuli, acting as a bridge between software control and physical hardware.
+3D Modeling and Simulation Software: Platforms such as Ansys and Fusion 360 combine design capabilities with powerful simulation tools to analyze physics-based problems like structural integrity, fluid dynamics, and thermal behavior.
+Popular Software Examples
+
+LTSpice: A free circuit simulator from Analog Devices, widely used for analog and power electronics, offering accurate simulations and a vast component library.
+TinkerCAD Circuits: A free, web-based platform from Autodesk that is excellent for learning and simulating basic electronics and Arduino projects.
+Proteus VSM: A versatile simulator for microcontrollers, supporting various architectures like PIC, AVR, and Arduino.
+Ansys: A comprehensive suite for advanced engineering simulation, covering fields like structural analysis, computational fluid dynamics (CFD), and more.
+Intel® Simics®: A full-system simulator that allows developers to access and test complex electronic systems without needing the physical hardware.
+MATLAB/Simulink: Provides tools for modeling and simulation, with capabilities for Hardware-in-the-Loop (HIL) testing and integrating with physical systems.
+
+Some Free Circuit Design Software
+CircuitMaker
+Open Circuit Design Software
+KiCad EDA
+ADS Circuit Design Software
+nagaEDA Circuit Design Software
+OpenSce Circuit Design Software
+QSapecNG Circuit Design Software
+SimulIde
+gerbv
+
+
+
+
+Test points
+Identifying test points
+Chapter 7
+Evaluation and Results
+
+Highlight the test points in each functional unit and determine various scenarios. (trouble shooting)
+Different test points should be marked for hardware and software to check functionality.
+Determine the list of measurement (values, type of signals, etc.) at each test point.
+Each design test value should be compared with expected value, simulation and hardware for every functional unit.)
+Use open source tools viz. Draw.io, Dia, or any other to draw circuits diagrams.
+e.g.
+The test points are marked as V1, V2, V3, V4 and V5 for checking the required voltage levels at each of the point in functional unit automatic switching.
+
+Figure 7.1 Power supply unit indicating the test points
+Figure 7.1 Testing points for the automatic switching. …..
+Example of test scenarios for a project related to solar panels
+First scenario or test plan should test the output with various considerations. Test the output of the solar panel at different levels and calculate the potentiometer adjustment theoretically.
+Second scenario or test plan 2 in this stage calculates the voltages for the interfaces connected.
+Test point 3 or scenario 3…
+
+Test plan
+Develop test plan Develop the test plan for each functional unit.
+The test plan should be in the form
+<Subject> <verb> <Object> <conditions> <values> <range> <constraints>
+Develop the test cases for measuring various system characteristics and performance such as accuracy, linearity, latency, power aware etc.
+Black box testing (positive, negative, boundary)
+White box testing (Control flow, Data flow, Branch, Path)
+Hardware testing
+Unit Testing
+Integrated testing
+Software testing
+System testing
+Validation (dynamic, testing user requirements)
+e.g.
+TP1: The voltage must be 3.25V when the input is varied between 4 to 6V. TP2: Measure output voltage of temperature sensor for range of temperature
+TP3: Measure the output voltage of the IR sensor for detecting object and distance.
+TP4: for various input value at ADC pin of microcontroller display the value in serial terminal.
+Tp5: for each value of ADC pin of microcontroller compute the Temperature and display the temperature in serial terminal.
+TP6: Send initialization commands LCD and test it turn ON TP7: Send char in serial port to WiFi and check output.
+
+
+Test Result
+Tabulating test results.
+(For all the test case scenarios listed with respect to design, simulation and implementation aspects.
+Measure the sensed values for a range, represent data in tabular form, visualize using graphs, and describe the interpretations
+Measurement of various system characteristics and performance such as resolution, efficiency, errors, accuracy, linearity, latency, power aware etc. also
+should be tabulated with detailed description.)
+
+Table 7.1 Observations of the Temperature unit
+Observations:
+Table 7.2 include Observations for each unit
+
+Input
+Computed value
+Simulated
+value
+Analog value
+Digital value
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Reflect on observations. e.g.
+Referring to the table 7.1 it observed that the simulation values are very close to the actual values which reflect the proper functioning of real prototype to meet the objectives. The error is less than 10% and the accuracy of the output is within 90%
+Visualise the results with appropriate graphs and describe the insights.
+e.g.
+
+Figure 7.2 Variability and trends of precipitation across seasonal cycle of Karnataka region
+
+Figure 7.2 shows the variability and trends of precipitation across seasonal cycle of Karnataka region for the period 1951-2020 to observe the change in precipitation of each month over the years. Precipitation is usually high in the monsoon month of July and low in the non-monsoon month of December, being highest during period 1951-1960 and lowest in the period 2001- 2010. Comparing the average trend values of the latest decade 1991-2020 with earlier decades, the precipitation values are lower in recent decades compared to earlier years indicating climatology trend of precipitation decrease over the years.
+
+Figure 7.3: Distribution of Average mean surface air temperature of Karnataka region.
+Figure 7.3 shows change in distribution of average mean surface air temperature of Karnataka region for three periods 1951- 1980, 1971-2000 and 1991-2020. It is observed the peaks have shifted 24.50C, 25.150C and 25.60C respectively indicating increase 1.10C in temperature value compared to the previous period. Moreover, the shift does not only signify increase in the peak but also the range of temperatures in later periods. The distribution suggests that the higher temperature event is more often than before.
+
+Figure 7.4: Trend line of Precipitation per decade of Karnataka region.
+Figure 7.4 shows the Trend line of the Precipitation per decade of Karnataka region. The annual average mean precipitation values have gradually fluctuated over the period of 1951-2020.
+
+Although the recent years 1971-2020, 1981-2020 and 1991-2020 shows an increasing precipitation, there is a decreasing trend compared to the previous period of 1951-2020 and 1961-2020. The trend line 2001 to 2040, is directed downward predicting a decrease in the precipitation.
+Other examples of graph
+
+Figure 7.5: Urban population and rate of growth of urban population [1].
+
+Figure 7.6: Data explorer view of correct and incorrect predictions.
+
+(a) Type of garden owned.(b) Watering frequency of plants. Figure 7.7: Garden owned and frequency of watering plants
+
+Provided insights for each figure, graph, table
+
+Insights
+Discuss insights. Give reasons for the problem
+e.g.
+What was the reason for the component getting burnt?
+What are the conditions under which some components do not work?
+Discuss the evaluation in terms of working principle, signal conditioning, latency, linearity, resolution, efficiency, error, accuracy etc.
+e.g.
+The regulator provides current 1.3A which is close to the maximum rating and gets heated. To avoid exceeding ratings the current may be driven using regulator of higher rating, using heat sink to avoid burning, or multiple regulators to distribute currents to different devices.
+The microcontroller requires 200ms to return from sleep state but the delay does not affect the measurement as temperature variation is slower.
+As per datasheet the minimum voltage the 10 bit ADC of the microcontroller can measure is 4.89mV and lower values cannot be measured with precision. A high precision ADC would be required for measuring smaller values.
+The maximum output voltage of solar panels is 18V that can damage the input to microcontroller and requires interfacing circuits to shift level below 5V to avoid damage to microcontroller.
+The measurement of distance by ultrasonic sensor is 34cm whereas the actual value is 31cm which is within 10% accuracy. Ultrasonic sensors are affected by oil, humidity and heat, thus affecting the readings and their instability.
+The current sourced by microcontroller digital pin is 40mA and DC current between Vcc and Ground is 200mA. It cannot be used to drive the relay that requires 100mA current and so relay drivers ULN2003 are required. It cannot drive the DC motor and L298N is used
+The accuracy between the design, simulation and implementation values is within 10% Although the error is 2% in measurement of time it is not cumulative and remains constant for all values.
+Discuss the aspects to improve each functional units in terms of reliability, power aware, interrupt driven, precise timing, meeting standards, safety etc.
+e.g.
+The switch allows system configuration in OFF mode and normal operation in ON mode.
+Interrupt driven programming is used. The microcontroller is programmed to sleep state. When an event occurs an interrupt is generated to wake the system. The measurement and processing is completed and once again the system is put to sleep
+
+mode. The power in wake mode is 6.5mW and 2uW in sleep mode, thereby saving power. The event occurs every 500ms but It takes 100ms to wake, so no value is lost.
+The standard frequency 2.4GHz is the used for communication
+The freewheeling diode is connected across the relay coil to avoid damage to circuit.
+The system has a power switch and reset switch to provide safety and power saving when not in use.
+One possible solution is to change the ultrasonic sensor with the waterproof ultrasonic sensor.
+
+Chapter 8
+Social, Legal, Ethical, Sustainability and Safety aspects
+
+The actions that society finds acceptable versus the actions which society do not accept. Unfortunately, not all situations are morally well defined.
+Who is responsible for assuring the safe, legal, and ethical use of this project?
+What are the consequences of dishonesty in system/project use, individual and professional?
+How does ethical analysis apply to activities that are against the law?
+Ensure proper citation and referencing.
+
+
+Social Aspects
+Social aspects address how a technology or product affects society, including human interactions, communities, and culture.
+Ensure proper citation and referencing.
+e.g. impact of AI
+Positive impacts: Enhanced communication through social media and messaging, improved healthcare with advancements like telemedicine, and broader access to information and education via online platforms.
+Negative impacts: The digital divide, which exacerbates inequality by leaving those without access to technology behind. Social media can also contribute to social isolation, mental health issues, and cyberbullying.
+Case study: AI: The social impact of Artificial Intelligence (AI) includes changes to the workforce due to automation, the potential for algorithmic bias to reinforce societal inequalities, and challenges to human dignity if AI replaces roles that require empathy, such as caregiving or counseling.
+Legal Aspects
+Legal aspects concern regulations and compliance, with a strong focus on data privacy in the digital age.
+Ensure proper citation and referencing.
+e.g. impact of AI
+Data privacy laws: Landmark legislation such as the EU's General Data Protection Regulation (GDPR) and India's Digital Personal Data Protection Act (DPDPA) of 2023 establish frameworks for handling personal data. Key principles include lawful and fair processing, purpose limitation, data minimization, and accountability.
+
+Rights and obligations: Under such laws, individuals have rights to access, correct, and erase their personal data. Data fiduciaries (those who process data) are obligated to obtain consent, implement security safeguards, and manage grievances.
+Challenges: Regulatory compliance is complex for multinational companies. For technologies like autonomous vehicles, determining liability in the event of an accident presents a new legal challenge.
+Ethical Aspects
+Ethical aspects involve moral principles guiding the development and use of technology, considering fairness, accountability, and potential harm.
+Ethical action on the part of engineer can be partially simplified, as the simple mandate that an engineer's greatest responsibility is to the public good.
+What effects have your project had on the quality of life in the workplace, and in society in general?
+Are your projects addictive?
+Do they depersonalize the individual to the point that ethical issues no longer seem relevant?
+How do electronics engineering professionals determine ethical standards to deal with the effects that their work has in these areas?
+Ensure proper citation and referencing.
+e.g. impact of AI
+AI ethics: This field addresses issues like algorithmic bias and fairness, which can arise when AI is trained on skewed data, leading to biased outcomes in areas like hiring or criminal justice. Other key concerns include transparency (the "black box" problem), data privacy, and accountability.
+Robotics: Ethical questions also surround robot rights, the use of AI in lethal autonomous weapons, and how to program morally sound decision-making into autonomous systems.
+Generative AI: Ethical debates also encompass copyright and intellectual property, as generative AI models are trained on existing human-created content.
+Sustainability Aspects
+Sustainability aspects relate to the environmental impact of a product or process, especially throughout its lifecycle.
+Sustainable design is a kind of design meant to yield products that are made only of renewable resources. Furthermore, products made, though sustainable design is intended not to seriously impact the environment either when they are being created or when they are being used. These products are also often designed to allow the users to feel more connected or to relate more closely to the natural environment. This design is based on economic, ecological, and social principles regarding the importance of sustainability.
+Discuss the relevant sustainability aspects of your project by answering some of the principles (but not restricted to these principles only) of sustainable design as follow:
+
+Efficient use of raw materials (e.g. lightweight and regenerative materials and reduction of waste)
+Resource efficient design (e.g. by optimization of energy and water consumption or using less virgin materials)
+Durable design (e.g. stable and high durability of the product)
+High disposability (e.g. use of easily degradable materials)
+Efficient logistics (e.g. minimized packing and efficient transports)
+Consumer health & safety (e.g. informing the consumer via product labels and voluntary information
+Ensure proper citation and referencing.)
+e.g. impact of AI
+Supply chain sustainability: Businesses are increasingly focused on creating sustainable supply chains by adopting ethical sourcing, using renewable energy, and managing waste. Measures include reducing emissions from transportation, designing products for recyclability, and establishing transparency with suppliers.
+Environmental considerations: The goal is to minimize environmental harm, including protecting natural resources and reducing greenhouse gas emissions. Technologies like AI and advanced analytics are being used to optimize supply chains and promote circular economy principles.
+Social dimension of sustainability: A sustainable approach also incorporates social responsibility, ensuring fair labor practices and safe working conditions throughout the supply chain.
+Safety Aspects
+Safety aspects focus on preventing harm and ensuring the security and reliability of products and systems.
+(Discuss and describe the safety aspect from the perspective of the project
+Ensure proper citation and referencing.
+e.g.
+The Internet of Things (IoT) in Health, Safety, and Environment (HSE) refers to the application of connected physical devices, sensors, and network technology to optimize and enhance processes related to occupational health, workplace safety, and environmental management. This integration enables real-time data collection, facilitating informed decision-making and promoting safer and more sustainable practices.
+IoT safety is the process of protecting IoT devices, networks, and data from threats by using best practices like strong, unique passwords and multi-factor authentication, regular firmware updates, data encryption, creating isolated networks for IoT devices, and monitoring for suspicious activity.
+IoT also improves safety by enabling real-time monitoring of environmental hazards, providing data-driven insights for risk prevention, and improving emergency response through alerts and guided evacuations.)
+
+e.g. impact of AI
+Autonomous vehicles: Safety is paramount for self-driving cars, requiring robust sensor suites, extensive software testing, and cybersecurity measures to prevent hacking.
+Redundancy and fail-safe mechanisms are built in to ensure functional safety.
+AI systems: Safety guidelines are also crucial for AI, including developing systems that are robust and reliable under various conditions and implementing continuous monitoring. The goal is to prevent AI from producing harmful or unintended outputs.
+Cybersecurity: This is a key component of safety, particularly in technology. It involves protecting systems from cyberattacks, data breaches, and unauthorized access.
+
+Chapter 9
+Conclusion
+(Summarise the approach used in the project, the results obtained and future work)
+Discuss how the implementation of this project meets the objectives listed in the Introduction.
+Summarize the results and link it with the objectives of the project
+Future recommendation - Reflect on design aspects that can be improved but not implemented in your project.)
+e.g.
+Solar tracking systems designed in the proposed work fulfills the optimized structure in different scenarios based on sunlight. The designed prototype is IoT based to monitor and control the system and also serves as an efficient and a sustainable solar tracking device…….
+In the future, this project can be developed and improved to make it more efficient and usable by......
+
+References
+(When you write a research paper or report, including a list of references is an important step. Below are some guidelines for selecting and formatting your references.
+Include references of all sources used in chapters – 1. Introduction, 2. Literature review, 3. Methodology, 4. Project management, 5. Analysis and Design, 6. Hardware and Software implementation, 7. Evaluation and results, and 8. Social, Legal, Ethical, Sustainability and Safety aspects.
+Reference Selection
+Make sure all references are directly relevant to the topic/project.
+You should cite recent conference and journal papers, preferably those published within the last three to five years.
+If you include any figures or tables from other sources, they must be properly cited as well.
+Citation and Formatting
+Every source you cite in the body of the report must appear in your reference list,
+Every source in your reference list must be cited in the text.
+If you cite a source multiple times, you only need to include one entry for it in your reference list.
+Finally, do not include any references in your list that you haven't cited in your paper.
+Use Havard style – e.g. author name, year, title of paper, conference or publication, vol, issue, page no, ISBN no …
+e.g.
+United Nations, Sustainable Development Goals, Department of Economic and Social Affairs UN, https://sdgs.un.org/goals
+NarasimhaRao, Y., Chandra, P.S., Revathi, V. and Kumar, N.S., 2020. Providing enhanced security in IoT based smart weather system. Indonesian Journal of Electrical Engineering and Computer Science, 18(1), pp.9-15.
+Raju, M.P. and Laxmi, A.J., 2020. IOT based online load forecasting using machine learning algorithms. Procedia Computer Science, 171, pp.551-560.
+….
+Do not summarise from websites, wikipedia, blogs, etc.)
+
+
+Use the instructions below to format your references to match the example in the "References" section above.
+
+Step 1. Visit https://scholar.google.com/
+Step 2. Search the title of the publication. (screenshot below)
+
+
+Step 3. Click on “Cite “ link below the searched publication. It will automatically generate the citation in standard formats (screenshot below)
+
+Step 4. Choose the Harvard style and copy-paste in reference
+
+Appendix
+(Include summary of specifications of components from datasheet, and a few images of the project demonstrating different scenarios)
+Data sheets –
+Publications – Acceptance letter, Scopus URL, Certificate.
+Few images of project –
+Any auxiliary documents –
+Datasets
+Etc.
+
+Checklist
+Students to print checklist separately.
+Confirming the checklist is only for ensuring completeness, correctness and quality of report. Use the checklist to confirm all aspects are fulfilled.
+Confirming the checklist does not assure full marks. In addition to report, marks are awarded for other aspects of the project viz. implementation and presentation.
+Do not include this checklist in the report.
+Confirm Formatting – line spacing, paragraph justification, font size.
+Confirm Text – details, spellings, grammar
+Confirm Figures and Tables - in-text citation, description
+Confirm Figures and Tables – updated in List of Figures and Tables
+Confirm Citation – all sources referred are cited
+Confirm References –all sources referred are updated in Reference section
+Faculty to mark ‘X’ in columns not confirming
+
+Sl.
+No.
+Description
+A
+B
+C
+D
+E
+F
+
+Declaration
+
+
+
+
+
+
+
+Acknowledgement
+
+
+
+
+
+
+
+Abstract
+
+
+
+
+
+
+
+Table of content
+
+
+
+
+
+
+
+– confirm Section, sub-sections from all chapters
+included.
+
+
+
+
+
+
+
+– confirm Page no. of Section, sub-sections updated
+
+
+
+
+
+
+
+– confirm Page no. are aligned to right
+
+
+
+
+
+
+
+List of Figures
+
+
+
+
+
+
+
+– confirm Caption of Figures from all chapters
+included.
+
+
+
+
+
+
+
+– confirm Page no. of figures updated
+
+
+
+
+
+
+
+– confirm Page no. are aligned to right
+
+
+
+
+
+
+
+– confirm Figures are numbered correctly
+
+
+
+
+
+
+
+List of Tables
+
+
+
+
+
+
+
+– confirm Caption of Tables from all chapters
+included.
+
+
+
+
+
+
+
+– confirm Page no. of tables updated
+
+
+
+
+
+
+
+– confirm Page no. are aligned to right
+
+
+
+
+
+
+
+– confirm Tables are numbered correctly
+
+
+
+
+
+
+
+Abbreviations
+
+
+
+
+
+
+
+– confirm Abbreviations used in all chapters included
+
+
+
+
+
+
+
+– confirm Abbreviations are in alphabetic order.
+
+
+
+
+
+
+
+– confirm Abbreviations appear only once in list and
+are not repeated
+
+
+
+
+
+
+
+Confirm Formatting – line spacing, paragraph justification, font size.
+Confirm Text – details, spellings, grammar
+Confirm Figures and Tables - in-text citation, description
+Confirm Figures and Tables – updated in List of Figures and Tables
+Confirm Citation – all sources referred are cited
+Confirm References –all sources referred are updated in Reference section
+Faculty to mark ‘X’ in columns not confirming
+
+Sl.
+No.
+Description
+A
+B
+C
+D
+E
+F
+1.
+Introduction
+
+
+
+
+
+
+
+1.1 Background
+
+
+
+
+
+
+
+1.2 Statistics of project
+
+
+
+
+
+
+
+1.3 Prior existing technologies
+
+
+
+
+
+
+
+1.4 Proposed approach
+
+
+
+
+
+
+
+1.5 Objectives
+
+
+
+
+
+
+
+1.6 SDGs
+
+
+
+
+
+
+
+1.7 Overview of project report
+
+
+
+
+
+
+2.
+Literature review
+
+
+
+
+
+
+3.
+Methodology
+
+
+
+
+
+
+4.
+Project management
+
+
+
+
+
+
+
+4.1 Project timeline
+
+
+
+
+
+
+
+4.2 Risk analysis
+
+
+
+
+
+
+
+4.3 Project budget
+
+
+
+
+
+
+5.
+Analysis and Design
+
+
+
+
+
+
+
+5.1 Requirements
+
+
+
+
+
+
+
+5.2 Block Diagram
+
+
+
+
+
+
+
+5.3 System Flow Chart
+
+
+
+
+
+
+
+5.4 Choosing devices
+
+
+
+
+
+
+
+5.5 Designing units
+
+
+
+
+
+
+
+5.6 Standards
+
+
+
+
+
+
+
+5.7 Mapping with IoTWF reference model layers
+
+
+
+
+
+
+
+5.8 Domain model specification
+
+
+
+
+
+
+
+5.9 Communication model
+
+
+
+
+
+
+
+5.10 IoT deployment level
+
+
+
+
+
+
+
+5.11 Functional view
+
+
+
+
+
+
+
+5.12 Mapping IoT deployment level with
+functional view
+
+
+
+
+
+
+
+5.13 Operational view
+
+
+
+
+
+
+
+5.14 Other Design
+
+
+
+
+
+
+6.
+Hardware, Software and Simulation
+
+
+
+
+
+
+
+6.1 Hardware
+
+
+
+
+
+
+
+6.2 Software development tools
+
+
+
+
+
+
+
+6.3 Software code
+
+
+
+
+
+
+
+6.4 Simulation
+
+
+
+
+
+
+
+Confirm Formatting – line spacing, paragraph justification, font size.
+Confirm Text – details, spellings, grammar
+Confirm Figures and Tables - in-text citation, description
+Confirm Figures and Tables – updated in List of Figures and Tables
+Confirm Citation – all sources referred are cited
+Confirm References –all sources referred are updated in Reference section
+Faculty to mark ‘X’ in columns not confirming
+
+Sl.
+No.
+Description
+A
+B
+C
+D
+E
+F
+7.
+Evaluation and Results
+
+
+
+
+
+
+
+7.1 Test points
+
+
+
+
+
+
+
+7.2 Test plan
+
+
+
+
+
+
+
+7.3 Test result
+
+
+
+
+
+
+
+7.4 Insights
+
+
+
+
+
+
+8.
+Social, Legal, Ethical, Sustainability and Safety Aspects
+
+
+
+
+
+
+
+8.1 Social aspects
+
+
+
+
+
+
+
+8.2 Legal aspects
+
+
+
+
+
+
+
+8.3 Ethical aspects
+
+
+
+
+
+
+
+8.4 Sustainability aspects
+
+
+
+
+
+
+
+8.5 Safety aspects
+
+
+
+
+
+
+9.
+Conclusion
+
+
+
+
+
+
+
+References
+
+
+
+
+
+
+
+Appendix
+
+
+
+
+
+
+Remarks:Remarks:
+Remarks:
+Remarks:
+
+Tentative marking scheme
+
+Sl No
+CO
+Internship/Dissertation/Capstone Project/Major Project - Evaluation Components
+Weightage in %
+Marks
+1
+CO1
+Phase 01 Presentation:
+Synopsis, Objectives, and Methodology
+10
+20
+2
+CO2,
+CO3
+Phase 02 Presentation:
+30% to 50% of Work Progress
+10
+20
+3
+CO4, CO5,
+CO6
+Phase 03 Presentation:
+Final Report (50%), Presentation (10%), and Viva- voce (10%)
+75
+150
+4
+CO6
+Project Expo
+5
+10
+
+
+Total
+100
+200
+
+NOTE: The above-mentioned evaluation rubrics will be applicable for Internship, Dissertation, Capstone Project, Major Project, and other project-based courses from 2021-2025 Batch onwards.
+Rubrics
+
+Very Poor:
+Poor:
+Acceptable: 5
+Fair: 6
+Good: 7
+Very Good: 8
+Excellent: 9
+Outstanding: 10
+0 - 2
+3 - 4
+5 - 6
+7 - 8
+9 - 10
+1
+2
+3
+4
+5
+Very poor
+Poor
+Acceptable, Fair
+Good, very good
+Excellent, outstanding
+Very inconsistent
+Minimal consistent
+Fairly consistent
+Mostly consistent
+Completely consistent
+Too many
+mistakes
+Many mistakes
+Few mistakes
+Very few
+mistakes
+No mistakes
+
+
+
+
+Description
+Max
+Marks
+Marks
+obtained
+Phase 01
+Synopsis, Objectives, and Methodology
+Problem Definition/ Novelty
+4
+
+
+
+Literature Survey
+4
+
+
+
+System Architecture and Design
+4
+
+
+
+Presentation
+4
+
+
+
+Answering ability
+4
+
+
+
+Total
+20
+
+Phase 02
+Work Progress
+50% Demo and Execution of Project
+8
+
+
+
+Contribution to the Project
+5
+
+
+
+Presentation
+4
+
+
+
+Answering ability
+3
+
+
+
+Total
+20
+
+
+Phase 03 * (Detailed breakup is shown in table below)
+Prototype, Final Report, Presentation, and Viva- voce
+100% Demo and Execution of
+Project
+45
+
+
+
+Project Report
+75
+
+
+
+Presentation
+15
+
+
+
+Answering ability/Viva
+15
+
+
+
+Total
+150
+
+Project Expo
+
+Demonstration
+10
+
+
+
+Total
+10
+
+
+* Detailed Marking for Phase 03 - Prototype, Final Report, Presentation, and Viva-voce
+
+
+
+RUBRICS
+Max
+Marks
+Marks
+obtained
+PART A
+Content
+Abstract/ Synopsis Write-up
+5
+
+Report (75
+development
+Selection of Topic/ Relevance of the
+5
+
+marks) and
+Prototype
+(30 marks)
+subject to concerned discipline/
+Problem Identification
+
+
+
+
+Objectives and Methodology
+5
+
+(45 marks)
+
+
+
+
+
+
+Project management
+5
+
+
+
+SDGs, Social, Legal, Ethical,
+5
+
+
+
+Sustainability
+
+
+
+
+References
+5
+
+
+Problem
+Breadth of Literature Survey
+15
+
+
+oriented
+(Papers/Sites/Sources Surveyed)
+
+
+
+
+Documentation/ Systematic Approach
+10
+
+
+exposition (80 marks)
+
+
+
+
+
+Design
+(Detailed design of the project)
+30
+
+
+
+Prototype
+15
+
+
+
+(Demonstrating objectives)
+
+
+
+
+Results (with inference, Conclusions,
+10
+
+
+
+etc.)
+
+
+
+Publication
+(10 marks)
+Published article in Scopus conference or journal
+10
+
+PART B
+
+Quality of preparation of presentation
+4
+
+Presentation
+
+Communication Skills
+3
+
+(15 marks)
+
+
+
+
+
+
+Technical knowledge and awareness
+4
+
+and Viva-
+
+
+
+
+
+
+Individual involvement
+4
+
+Voce
+
+
+
+
+
+
+Viva-Voce - Questions relating to
+15
+
+(15 marks)
+
+fundamentals and concepts
+
+
+
+
+Total marks
+150
+
