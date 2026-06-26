@@ -17,6 +17,9 @@
 
 **KrishiMitra** is a comprehensive mobile/web application designed to empower farmers with modern technology. It bridges the gap between traditional farming and artificial intelligence by providing real-time data, AI-driven disease detection, and a direct peer-to-peer (P2P) marketplace to sell crops without middlemen.
 
+
+krishimitra-shivam.surge.sh
+
 ## ✨ Key Features
 
 - **🔍 AI Crop Disease Detection:** Upload a photo of a diseased plant leaf. The built-in CNN model identifies the disease, generates a Grad-CAM heatmap to show exactly where the infection is, and provides actionable treatment steps.
