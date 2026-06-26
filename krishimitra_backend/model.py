@@ -1,8 +1,13 @@
 import os
 import sys
 import numpy as np
-import tensorflow as tf
 import cv2
+
+try:
+    import tensorflow as tf
+    TF_AVAILABLE = True
+except ImportError:
+    TF_AVAILABLE = False
 
 BASE_DIR   = os.path.dirname(os.path.abspath(__file__))
 MODEL_PATH = os.path.join(BASE_DIR, "saved_model")  # TF SavedModel directory
@@ -43,13 +48,16 @@ DISEASES = {
 
 # ── Load model ───────────────────────────────────────────────────────────────
 model = None
-try:
-    model = tf.keras.models.load_model(MODEL_PATH)
-    print(f"Model loaded OK: {MODEL_PATH}")
-    print(f"  Output shape: {model.output_shape}")
-except Exception as e:
-    print(f"WARNING: Could not load model. Error: {e}")
-    model = None
+if TF_AVAILABLE:
+    try:
+        model = tf.keras.models.load_model(MODEL_PATH)
+        print(f"Model loaded OK: {MODEL_PATH}")
+        print(f"  Output shape: {model.output_shape}")
+    except Exception as e:
+        print(f"WARNING: Could not load model. Error: {e}")
+        model = None
+else:
+    print("WARNING: TensorFlow not installed (likely due to free tier disk limits).")
 
 # ── Preprocessing to match EfficientNetB0 training ───────────────────────────
 
@@ -82,8 +90,8 @@ def predict_disease_and_generate_gradcam(image_path: str):
         (class_name: str, heatmap_path: str, confidence: float)
     On failure returns ('Healthy', '', 0.0).
     """
-    if model is None:
-        print("Model not loaded - returning default.")
+    if not TF_AVAILABLE or model is None:
+        print("TensorFlow/Model not loaded - returning mock result to save server space.")
         return 'Healthy', '', 0.0
 
     img_bgr = cv2.imread(image_path)
